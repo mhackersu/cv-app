@@ -1,6 +1,6 @@
 // import Ping from "./Ping"
 // import Pong from "./Pong"
-import Resume from "./Header"
+import Resume from "./Resume"
 
 function Main() {
     return (
