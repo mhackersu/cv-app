@@ -1,249 +1,213 @@
 function Resume() {
   return (
-    <div className="prose">
-      <header>
-        <h1>Mike Hacker</h1>
-        <h2>Software Engineer</h2>
-        <p>
-          <a href="mailto:mike@bfsio.net">mike at bfsio dot net</a> |{' '}
-          <a href="http://mvskokvlke.com" target="_blank" rel="noreferrer">
-            blog
-          </a>
-        </p>
-      </header>
-      <section id="education">
-        <h2>Education</h2>
-        <article>
-          <h3>University of North Texas (2014)</h3>
-          <p>Bachelors of Applied Arts & Sciences, MIS</p>
-        </article>
-        <article>
-          <h3>Collin County Community College (2000)</h3>
-          <p>Associates of Arts, MIS</p>
-        </article>
-      </section>
-      <section id="skills">
-        <h2>Skills</h2>
-        <article>
-          <h3>Polygot</h3>
-          <ul>
-            <li>python</li>
-            <li>golang</li>
-            <li>nodejs</li>
-            <li>ruby</li>
-          </ul>
-        </article>
-        <article>
-          <h3>DevOps</h3>
-          <ul>
-            <li>docker, kates, helm, minikube</li>
-            <li>prometheus, grafana, elk</li>
-            <li>sdlc, groovy, yml, json, jq, sed, awk, bash, vim</li>
-          </ul>
-        </article>
-        <article>
-          <h3>Security</h3>
-          <ul>
-            <li>credstash, sops,hashicorp vault, gcp secrets, k8s secrets</li>
-            <li>cryptography (encryption, certs, keys)</li>
-            <li>tls, ssl, https</li>
-            <li>sdlc, dast, sast, sca</li>
-            <li>iam, rbac, aad</li>
-          </ul>
-        </article>
-      </section>
-      <section>
-        <h2>Career History</h2>
-        <article>
-          <h3>WP Engine</h3>
-          <p>
-            <strong>DevOps Engineer</strong> 2022-2024
-          </p>
-          <ul>
-            <p>
-              <strong>
-                Cloudflare Enterprise SME - Domain Routing Automation in Go and
-                Ruby
-              </strong>
-            </p>
-            <p>
-              Maintained and enhanced an automated SSL certificate provisioning
-              system leveraging Cloudflare Orange Cloud Enterprise SaaS,
-              integrating Let&apos;s Encrypt and Google Cloud SSL services.
-              Transitioned from a legacy manual queuing process to a streamlined
-              solution for onboarding unique customer subdomains under
-              multi-tenant apex domains (e.g., wpengine.com, wpeng.in). Improved
-              system reliability and scalability by refining UI workflows and
-              real-time status tracking, reducing customer support interactions
-              and driving customer satisfaction.
-            </p>
-            <p>
-              <strong>
-                SRE for domain validation services in customer onboarding
-                workflows
-              </strong>
-            </p>
-            <p>
-              Operationalized and supported the transition from a Ruby-based
-              in-house DNS routing platform to a Go-based Cloudflare SaaS
-              Enterprise Orange-to-Orange (O2O) proxy system. Enhanced customer
-              onboarding configurations by implementing real-time API endpoints
-              for dynamic UI status updates. Delivered improved reliability,
-              scalability, and operational efficiency, supporting millions of
-              domains with seamless integration into a multi-tenant
-              architecture.
-            </p>
-            <p>
-              <strong>AWS</strong>
-            </p>
-            <p>
-              Increased platform reliability by creating automation for Route53
-              domain certificate renewals with Python and LetEncrypt.
-            </p>
-            <p>
-              <strong>GCP</strong>
-            </p>
-            <p>
-              Created production code in Ruby and Go in GKE clusters to support
-              interoperability with customer domain onboarding systems and O2O
-              Cloudflare SaaS functionality.
-            </p>
-          </ul>
-          <p></p>
-        </article>
-        <article>
-          <h3>Fairway Mortgage</h3>
-          <p>
-            <strong>DevOps Engineer</strong> 2020-2022
-          </p>
-          <ul>
-            <p>
-              <strong>
-                Lead CI integration engineer on Platform for $7B ARR ACH banking
-                transactional system
-              </strong>
-            </p>
+    <div className="font-sans text-black">
+      <div className="mx-auto mt-10 max-w-4xl bg-white p-8 shadow-lg">
+        <div className="mb-6 flex items-center justify-between border-b pb-4">
+          <div>
+            <h1 className="text-4xl font-bold">Mike Hacker</h1>
+            <p className="text-lg text-gray-600">hacker@bfsio.net</p>
+          </div>
+          <div className="text-right">
+            <p className="text-sm text-gray-500">San Antonio, TX</p>
+          </div>
+        </div>
+        <section className="mb-8">
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
+          <ul className="list-disc space-y-1 pl-5">
+            <li>Languages: Python, Go, Ruby, Javascript</li>
+            <li>Databases: PostgreSQL, MySQL, MSSQL, NoSQL</li>
+            <li>Testing: Unit Testing, Integration Testing, Test Automation</li>
+            <li>Cloud Services: AWS, GCP, Azure</li>
+            <li>Infra: GKE, EKS, TF, Linux, SuperMicro</li>
+            <li>Networking: Cloudflare, F5, ELB, ALB, CLB, Mikrotik, L3, L7</li>
+            <li>DevOps: SDLC, Groovy, YML, JSON, JQ, SED, AWK, Bash, Vim</li>
             <li>
-              Led the implementation of CI modernization as CI/CD Transformation
-              Leader with integration of push-button release and approval gates
-              in a transactional system that processed $7B ARR in ACH bank
-              transfers. The modernization significantly reduced manual release
-              time by 80% and fostered alignment between engineering teams and
-              non-technical IT stakeholders with GitOps-style communication
-              strategies.
-            </li>
-            <p>
-              <strong>
-                Lead Terraform Engineer for POC Pivotal Labs Tiger Team
-                engagement
-              </strong>
-            </p>
-            <li>
-              Designed and implemented comprehensive CI pipelines for all
-              environments (dev, test, staging, and production) using Terraform,
-              incorporating ephemeral lower environments to optimize
-              infrastructure utilization and reduce cloud spend by enabling
-              short-lived resources tailored to workload demands.
-            </li>
-            <li>
-              Streamlined the UAT process, significantly reducing testing cycle
-              times and improving defect detection through consistent, automated
-              deployment pipelines.
-            </li>
-            <li>
-              Enhanced production handoffs by automating environment
-              provisioning, ensuring smoother, faster, and more reliable
-              releases, which minimized downtime and accelerated feature
-              delivery to customers.
-            </li>
-            <p>
-              <strong>AWS</strong>
-            </p>
-            <li>
-              Built out CI in AWS CodePipeline for AWS Lambda serverless
-              deployments.
-            </li>
-            <li>
-              Migrated IAM configurations into IaC to upgrade to more safe and
-              trackable identity and access management.
-            </li>
-            <p>
-              <strong>Azure</strong>
-            </p>
-            <li>
-              Improved developer experience by creating CI templates with
-              ephemeral IaC lowers that included RBAC, APIM, and KeyVault
-              integration.
-            </li>
-            <li>
-              Empowered all developer teams by building out CI production
-              templates for C#/.Net FunctionApps in both Bash and PowerShell.
+              Containers: Docker, Helm, Minikube, Prometheus, Grafana, ELK
             </li>
           </ul>
-          <p></p>
-        </article>
-        <article>
-          <h3>Tyler Technologies</h3>
-          <p>
-            <strong>DevOps Engineer</strong> 2018-2020
-          </p>
-          <ul>
-            <p>
-              <strong>Lead Terraform Enterprise engineer</strong>
+        </section>
+        <section>
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Education
+          </h2>
+          <div className="mb-6">
+            <p className="text-lg font-bold">
+              B.A.A.S. Management Information Services
             </p>
-            <li>
-              Deployed TF org-wide and collaborated with engineering teams to
-              drive the IaC adoption.
-            </li>
-            <li>
-              Served as Lead Terraform Enterprise Engineer for government
-              clients, deploying Terraform organization-wide to standardize and
-              automate infrastructure as code (IaC) practices across engineering
-              teams, including networking teams on F5 infra.
-            </li>
-            <li>
-              Partnered with engineering and DevOps teams to replace manual
-              customer domain and environment provisioning workflows with
-              reusable Terraform modules, enabling reliable and efficient
-              automation processes.
-            </li>
-            <li>
-              Improved operational efficiency and reliability by streamlining
-              provisioning tasks, reducing errors, and enhancing the management
-              of customer-specific domain configurations and environments.
-            </li>
-            <p>
-              <strong>AWS GovCloud</strong>
+            <p className="text-sm text-gray-600">
+              University of North Texas, Aug 2011 - Aug 2014
             </p>
+            <p className="text-sm text-gray-600">
+              Coursework: Statistics, Finance, Accounting, Economics
+            </p>
+          </div>
+          <div>
+            <p className="text-lg font-bold">
+              A.S. Management Information Services
+            </p>
+            <p className="text-sm text-gray-600">
+              Collin College, Aug 1998 - May 2000
+            </p>
+            <p className="text-sm text-gray-600">
+              Coursework: Finance, Accounting, Business Law
+            </p>
+          </div>
+        </section>
+        <br></br>
+        <section>
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Work Experience
+          </h2>
+          <div className="mb-6">
+            <p className="text-lg font-bold">Sr. DevOps Engineer | WP Engine</p>
+            <p className="text-sm text-gray-600">Nov 2022 - Nov 2024</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
+              <br></br>
+              <strong>Cloudflare Enterprise SME</strong>
+              <li>Domain Routing Automation in Go and Ruby</li>
+              <li>
+                Maintained and enhanced an automated SSL certificate
+                provisioning system leveraging Cloudflare Orange Cloud
+                Enterprise SaaS, integrating Let&apos;s Encrypt and Google Cloud
+                SSL services. Transitioned from a legacy manual queuing process
+                to a streamlined solution for onboarding unique customer
+                subdomains under multi-tenant apex domains (e.g., wpengine.com,
+                wpeng.in). Improved system reliability and scalability by
+                refining UI workflows and real-time status tracking, reducing
+                customer support interactions and driving customer satisfaction.
+              </li>
+              <br></br>
+              <strong>Lead SRE for Domain Validation Services</strong>
+              <li>
+                Operationalized and supported the transition from a Ruby-based
+                in-house DNS routing platform to a Go-based Cloudflare SaaS
+                Enterprise Orange-to-Orange (O2O) proxy system. Enhanced
+                customer onboarding configurations by implementing real-time API
+                endpoints for dynamic UI status updates. Delivered improved
+                reliability, scalability, and operational efficiency, supporting
+                millions of domains with seamless integration into a
+                multi-tenant architecture.
+              </li>
+            </ul>
+          </div>
+          <div className="mb-6">
+            <p className="text-lg font-bold">
+              Sr. DevOps Engineer | Fairway Mortgage
+            </p>
+            <p className="text-sm text-gray-600">Feb 2020 - Oct 2022</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
+              <br></br>
+              <strong>Lead CI Integration Engineer</strong>
+              <li>
+                Led the implementation of CI modernization as CI/CD
+                Transformation Leader with integration of push-button release
+                and approval gates in a transactional system that processed $7B
+                ARR in ACH bank transfers. The modernization significantly
+                reduced manual release time by 80% and fostered alignment
+                between engineering teams and non-technical IT stakeholders with
+                GitOps-style communication strategies.
+              </li>
+              <br></br>
+              <strong>Lead Terraform Engineer</strong>
+              <li>
+                Designed and implemented comprehensive CI pipelines for all
+                environments (dev, test, staging, and production) using
+                Terraform, incorporating ephemeral lower environments to
+                optimize infrastructure utilization and reduce cloud spend by
+                enabling short-lived resources tailored to workload demands.
+              </li>
+              <li>
+                Streamlined the UAT process, significantly reducing testing
+                cycle times and improving defect detection through consistent,
+                automated deployment pipelines.
+              </li>
+              <li>
+                Enhanced production handoffs by automating environment
+                provisioning, ensuring smoother, faster, and more reliable
+                releases, which minimized downtime and accelerated feature
+                delivery to customers.
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <p className="text-lg font-bold">
+              DevOps Engineer | Tyler Technologies
+            </p>
+            <p className="text-sm text-gray-600">Jun 2018 - Jan 2020</p>
+            <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
+              <br></br>
+              <strong>Lead Terraform Enterprise Engineer</strong>
+              <li>
+                Deployed TF org-wide and collaborated with engineering teams to
+                drive the IaC adoption.
+              </li>
+              <li>
+                Served as Lead Terraform Enterprise Engineer for government
+                clients, deploying Terraform organization-wide to standardize
+                and automate infrastructure as code (IaC) practices across
+                engineering teams, including networking teams on F5 infra.
+              </li>
+              <li>
+                Partnered with engineering and DevOps teams to replace manual
+                customer domain and environment provisioning workflows with
+                reusable Terraform modules, enabling reliable and efficient
+                automation processes.
+              </li>
+              <li>
+                Improved operational efficiency and reliability by streamlining
+                provisioning tasks, reducing errors, and enhancing the
+                management of customer-specific domain configurations and
+                environments.
+              </li>
+              <br></br>
+              <strong>AWS GovCloud Engineer</strong>
+              <li>
+                Automated manual processes by integrating customer domain
+                onboarding via Route53 API into CI via ADO.
+              </li>
+              <li>
+                Migrated IAM configurations into IaC to upgrade to more safe and
+                trackable identity and access management.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section className="mb-8">
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Projects
+          </h2>
+          <ul className="list-disc space-y-2 pl-5 text-sm text-gray-700">
             <li>
-              Automated manual processes by integrating customer domain
-              onboarding via Route53 API into CI via ADO.
+              <strong>[Project Name]</strong>:
             </li>
             <li>
-              Migrated IAM configurations into IaC to upgrade to more safe and
-              trackable identity and access management.
+              <strong>[Project Name]</strong>:
+            </li>
+            <li>
+              <strong>[Project Name]</strong>:
             </li>
           </ul>
-        </article>
-        <article>
-          <h3>Freelance Contractor</h3>
-          <p>
-            <strong>Software Engineering</strong> 2012-2017
-          </p>
-        </article>
-        <article>
-          <h3>IT Director</h3>
-          <p>
-            <strong>Healthcare Industry</strong> 2002-2011
-          </p>
-        </article>
-        <article>
-          <h3>Sales</h3>
-          <p>
-            <strong>Photography Industry</strong> 1997-2001
-          </p>
-        </article>
-      </section>
+        </section>
+        <section>
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Certifications
+          </h2>
+          <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
+            <li>GCP Certified Professional DevOps Engineer</li>
+            <li>GCP Certified Professional Network Engineer</li>
+            <li>GCP Certified Professional Security Engineer</li>
+          </ul>
+        </section>
+      </div>
+      <div className="no-print mt-8 flex justify-center">
+        <button
+          onClick="window.print()"
+          className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
+        >
+          Print / Save as PDF
+        </button>
+      </div>
     </div>
   )
 }
