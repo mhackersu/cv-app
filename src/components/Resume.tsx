@@ -201,10 +201,7 @@ function Resume() {
         </section>
       </div>
       <div className="no-print mt-8 flex justify-center">
-        <button
-          onClick="window.print()"
-          className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
-        >
+        <button className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700">
           Print / Save as PDF
         </button>
       </div>
