@@ -6,9 +6,7 @@ function Resume() {
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
             <p className="text-lg text-gray-600">hacker@bfsio.net</p>
-          </div>
-          <div className="text-right">
-            <p className="text-sm text-gray-500">San Antonio, TX</p>
+            <p className="text-sm text-gray-500">830-313-9450</p>
           </div>
         </div>
         <section className="mb-8">
@@ -16,14 +14,12 @@ function Resume() {
           <ul className="list-disc space-y-1 pl-5">
             <li>Languages: Python, Go, Ruby, Javascript</li>
             <li>Databases: PostgreSQL, MySQL, MSSQL, NoSQL</li>
-            <li>Testing: Unit Testing, Integration Testing, Test Automation</li>
+            <li>Testing: Unit Testing, Integration Testing</li>
             <li>Cloud Services: AWS, GCP, Azure</li>
             <li>Infra: GKE, EKS, TF, Linux, SuperMicro</li>
-            <li>Networking: Cloudflare, F5, ELB, ALB, CLB, Mikrotik, L3, L7</li>
-            <li>DevOps: SDLC, Groovy, YML, JSON, JQ, SED, AWK, Bash, Vim</li>
-            <li>
-              Containers: Docker, Helm, Minikube, Prometheus, Grafana, ELK
-            </li>
+            <li>Networking: Cloudflare, F5, Mikrotik, L3, L7</li>
+            <li>DevOps: SDLC, YML, JSON, JQ, SED, Bash, Vim</li>
+            <li>Containers: Docker, Kubernetes, Helm, Werf</li>
           </ul>
         </section>
         <section>
@@ -38,7 +34,7 @@ function Resume() {
               University of North Texas, Aug 2011 - Aug 2014
             </p>
             <p className="text-sm text-gray-600">
-              Coursework: Statistics, Finance, Accounting, Economics
+              Coursework: CS. Statistics, Finance, Economics
             </p>
           </div>
           <div>
@@ -49,7 +45,7 @@ function Resume() {
               Collin College, Aug 1998 - May 2000
             </p>
             <p className="text-sm text-gray-600">
-              Coursework: Finance, Accounting, Business Law
+              Coursework: CS, Accounting, Business Law
             </p>
           </div>
         </section>
@@ -63,30 +59,42 @@ function Resume() {
             <p className="text-sm text-gray-600">Nov 2022 - Nov 2024</p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
-              <strong>Cloudflare Enterprise SME</strong>
+              <strong>Cloudflare Enterprise SME - 2024</strong>
               <li>Domain Routing Automation in Go and Ruby</li>
               <li>
                 Maintained and enhanced an automated SSL certificate
                 provisioning system leveraging Cloudflare Orange Cloud
                 Enterprise SaaS, integrating Let&apos;s Encrypt and Google Cloud
-                SSL services. Transitioned from a legacy manual queuing process
-                to a streamlined solution for onboarding unique customer
-                subdomains under multi-tenant apex domains (e.g., wpengine.com,
-                wpeng.in). Improved system reliability and scalability by
-                refining UI workflows and real-time status tracking, reducing
-                customer support interactions and driving customer satisfaction.
+                SSL services.
+                <li>
+                  Transitioned from a legacy manual queuing process to a
+                  streamlined solution for onboarding unique customer subdomains
+                  under multi-tenant apex domains (e.g., wpengine.com,
+                  wpeng.in).
+                </li>
+                <li>
+                  Improved system reliability and scalability by refining UI
+                  workflows and real-time status tracking, reducing customer
+                  support interactions and driving customer satisfaction.
+                </li>
               </li>
               <br></br>
-              <strong>Lead SRE for Domain Validation Services</strong>
+              <strong>
+                Lead SRE for Domain Validation Services - 2022-2023
+              </strong>
               <li>
                 Operationalized and supported the transition from a Ruby-based
                 in-house DNS routing platform to a Go-based Cloudflare SaaS
-                Enterprise Orange-to-Orange (O2O) proxy system. Enhanced
-                customer onboarding configurations by implementing real-time API
-                endpoints for dynamic UI status updates. Delivered improved
-                reliability, scalability, and operational efficiency, supporting
-                millions of domains with seamless integration into a
-                multi-tenant architecture.
+                Enterprise Orange-to-Orange (O2O) proxy system.
+                <li>
+                  Enhanced customer onboarding configurations by implementing
+                  real-time API endpoints for dynamic UI status updates.
+                </li>
+                <li>
+                  Delivered improved reliability, scalability, and operational
+                  efficiency, supporting millions of domains with seamless
+                  integration into a multi-tenant architecture.
+                </li>
               </li>
             </ul>
           </div>
@@ -97,7 +105,7 @@ function Resume() {
             <p className="text-sm text-gray-600">Feb 2020 - Oct 2022</p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
-              <strong>Lead CI Integration Engineer</strong>
+              <strong>Lead CI Integration Engineer - 2022</strong>
               <li>
                 Led the implementation of CI modernization as CI/CD
                 Transformation Leader with integration of push-button release
@@ -108,7 +116,7 @@ function Resume() {
                 GitOps-style communication strategies.
               </li>
               <br></br>
-              <strong>Lead Terraform Engineer</strong>
+              <strong>Lead Terraform Engineer 2020-2021</strong>
               <li>
                 Designed and implemented comprehensive CI pipelines for all
                 environments (dev, test, staging, and production) using
@@ -137,7 +145,17 @@ function Resume() {
             <p className="text-sm text-gray-600">Jun 2018 - Jan 2020</p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
-              <strong>Lead Terraform Enterprise Engineer</strong>
+              <strong>AWS GovCloud Engineer - 2019-2020</strong>
+              <li>
+                Automated manual processes by integrating customer domain
+                onboarding via Route53 API into CI via ADO.
+              </li>
+              <li>
+                Migrated IAM configurations into IaC to upgrade to more safe and
+                trackable identity and access management.
+              </li>
+              <br></br>
+              <strong>Lead Terraform Enterprise Engineer - 2018</strong>
               <li>
                 Deployed TF org-wide and collaborated with engineering teams to
                 drive the IaC adoption.
@@ -161,15 +179,6 @@ function Resume() {
                 environments.
               </li>
               <br></br>
-              <strong>AWS GovCloud Engineer</strong>
-              <li>
-                Automated manual processes by integrating customer domain
-                onboarding via Route53 API into CI via ADO.
-              </li>
-              <li>
-                Migrated IAM configurations into IaC to upgrade to more safe and
-                trackable identity and access management.
-              </li>
             </ul>
           </div>
         </section>
@@ -179,26 +188,68 @@ function Resume() {
           </h2>
           <ul className="list-disc space-y-2 pl-5 text-sm text-gray-700">
             <li>
-              <strong>[Project Name]</strong>:
+              <strong>AWS Localstack Minikube Infra Project</strong>
+              <a
+                href="https://github.com/mhackersu/infra-services"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                - GitHub
+              </a>
+              <p>
+                A Kubernetes resiliency exercise using Docker, Minikube, and
+                Localstack to simulate AWS infrastructure. Includes establishing
+                a local k8s cluster, deploy producer-consumer services, and
+                implement liveness probes to automate health checks and ensure
+                service reliability.
+              </p>
             </li>
             <li>
-              <strong>[Project Name]</strong>:
+              <strong>Kubernetes Debugging App</strong>
+              <a
+                href="https://github.com/mhackersu/k8s-debuging-helper-app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                - GitHub
+              </a>
+              <p>
+                A Kubernetes debugging helper app that guides users through the
+                k8s debugging workflow, providing step-by-step assistance to
+                diagnose and resolve issues
+              </p>
             </li>
             <li>
-              <strong>[Project Name]</strong>:
+              <strong>Standard Deviation Computation Service</strong>
+              <a
+                href="https://github.com/mhackersu/sdc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                - GitHub
+              </a>
+              <p>
+                A Python service in a Docker container that fetches Gemini price
+                data, calculates standard deviation, and outputs JSONL to the
+                shell; Inputs are passed at instantiation for seamless service
+                integration.
+              </p>
             </li>
           </ul>
         </section>
-        <section>
+        {/* <section>
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Certifications
           </h2>
           <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
+            <li>Terraform Certified Professional</li>
             <li>GCP Certified Professional DevOps Engineer</li>
-            <li>GCP Certified Professional Network Engineer</li>
-            <li>GCP Certified Professional Security Engineer</li>
+            <li>AWS Certified Security Engineer</li>
           </ul>
-        </section>
+        </section> */}
       </div>
       <div className="no-print mt-8 flex justify-center">
         <button className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700">
