@@ -168,6 +168,17 @@ function Resume() {
           </h2>
           <ul className="list-disc space-y-2 pl-5 text-sm text-gray-700">
             <li>
+              <strong>Bird Feeder</strong>
+              <p>
+                A golden service that instanciates a Go service via a roubust
+                Dockerfile that fetches data from GCP data layer, performs
+                standard deviation calculations, and outputs calculations as
+                JSONL to the shell; Inputs are passed at instantiation for
+                seamless service integration into a larger microservice cloud
+                platform architecture.
+              </p>
+            </li>
+            <li>
               <strong>Minikube Localstack</strong>
               <p>
                 A Kubernetes resiliency exercise using Docker, Minikube, and
@@ -185,17 +196,6 @@ function Resume() {
                 k8s debugging, providing step-by-step assistance to diagnose and
                 resolve common error message that can be experienced when
                 deploying applications that run on kubernetes infrastructure.
-              </p>
-            </li>
-            <li>
-              <strong>Bird Feeder</strong>
-              <p>
-                A golden service that instanciates a Go service via a roubust
-                Dockerfile that fetches data from GCP data layer, performs
-                standard deviation calculations, and outputs calculations as
-                JSONL to the shell; Inputs are passed at instantiation for
-                seamless service integration into a larger microservice cloud
-                platform architecture.
               </p>
             </li>
           </ul>
