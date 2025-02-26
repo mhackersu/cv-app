@@ -186,7 +186,7 @@ function Resume() {
               </p>
             </li>
             <li>
-              <strong>Kubernetes Debugging App</strong>
+              <strong>Kubernetes Debugging Helper</strong>
               <a
                 href="https://github.com/mhackersu/k8s-debuging-helper-app"
                 target="_blank"
@@ -196,15 +196,16 @@ function Resume() {
                 - GitHub
               </a>
               <p>
-                A Kubernetes debugging helper app that guides users through the
-                k8s debugging workflow, providing step-by-step assistance to
-                diagnose and resolve issues
+                A ReactJS application that aids developers with Kubernetes
+                debugging procedures app that guides users through the various
+                k8s debugging, providing step-by-step assistance to diagnose and
+                resolve issues
               </p>
             </li>
             <li>
-              <strong>Standard Deviation Computation Service</strong>
+              <strong>Bird Feeder</strong>
               <a
-                href="https://github.com/mhackersu/sdc"
+                href="https://github.com/mhackersu/Birdfeeder"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -212,10 +213,12 @@ function Resume() {
                 - GitHub
               </a>
               <p>
-                A Python service in a Docker container that fetches Gemini price
-                data, calculates standard deviation, and outputs JSONL to the
-                shell; Inputs are passed at instantiation for seamless service
-                integration.
+                A golden service that instanciates a Go service via a roubust
+                Dockerfile that fetches data from GCP data layer, performs
+                standard deviation calculations, and outputs calculations as
+                JSONL to the shell; Inputs are passed at instantiation for
+                seamless service integration into a larger microservice cloud
+                platform architecture.
               </p>
             </li>
           </ul>
