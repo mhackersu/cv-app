@@ -22,41 +22,18 @@ function Resume() {
             <li>Containers: Docker, Kubernetes, Helm, Werf</li>
           </ul>
         </section>
-        <section>
-          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
-            Education
-          </h2>
-          <div className="mb-6">
-            <p className="text-lg font-bold">
-              B.A.A.S. Management Information Services
-            </p>
-            <p className="text-sm text-gray-600">
-              University of North Texas, Aug 2011 - Aug 2014
-            </p>
-            <p className="text-sm text-gray-600">
-              Coursework: CS. Statistics, Finance, Economics
-            </p>
-          </div>
-          <div>
-            <p className="text-lg font-bold">
-              A.S. Management Information Services
-            </p>
-            <p className="text-sm text-gray-600">
-              Collin College, Aug 1998 - May 2000
-            </p>
-            <p className="text-sm text-gray-600">
-              Coursework: CS, Accounting, Business Law
-            </p>
-          </div>
-        </section>
         <br></br>
         <section>
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Work Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">Sr. DevOps Engineer | WP Engine</p>
-            <p className="text-sm text-gray-600">Nov 2022 - Nov 2024</p>
+            <p className="text-lg font-bold">
+              Lead DevOps Engineer | WP Engine
+            </p>
+            <p className="text-sm text-gray-600">
+              Nov 2022 - Nov 2024 (Remote)
+            </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
               <strong>Cloudflare Enterprise SME - 2024</strong>
@@ -102,7 +79,9 @@ function Resume() {
             <p className="text-lg font-bold">
               Sr. DevOps Engineer | Fairway Mortgage
             </p>
-            <p className="text-sm text-gray-600">Feb 2020 - Oct 2022</p>
+            <p className="text-sm text-gray-600">
+              Feb 2020 - Oct 2022 (Remote)
+            </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
               <strong>Lead CI Integration Engineer - 2022</strong>
@@ -137,12 +116,13 @@ function Resume() {
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
             <p className="text-lg font-bold">
               DevOps Engineer | Tyler Technologies
             </p>
-            <p className="text-sm text-gray-600">Jun 2018 - Jan 2020</p>
+            <p className="text-sm text-gray-600">
+              Jun 2018 - Jan 2020 (Remote)
+            </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
               <strong>AWS GovCloud Engineer - 2019-2020</strong>
@@ -239,6 +219,70 @@ function Resume() {
               </p>
             </li>
           </ul>
+        </section>
+        <section className="mb-8">
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Freelance Experience
+          </h2>
+          <div className="mb-6">
+            <p className="text-lg font-bold">
+              2017 - Pizza Hut Digital Ventures
+            </p>
+            <p>DevOps Engineer, London, UK</p>
+          </div>
+          <div className="mb-6">
+            <p className="text-lg font-bold">
+              2016 - Texas Dept. of Public Safety
+            </p>
+            <p>Front-End Web Developer, Austin, TX</p>
+          </div>
+          <div className="mb-6">
+            <p className="text-lg font-bold">2015 - General Assembly</p>
+            <p>Full-Stack Web Developer, Austin, TX</p>
+          </div>
+        </section>
+        <section className="mb-8">
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Previous Work Experience
+          </h2>
+          <div className="mb-6">
+            <p className="text-lg font-bold">Texas Health Resources</p>
+            <p>IT Director | Plano, TX</p>
+            <p>2001 - 2011</p>
+          </div>
+          <div className="mb-6">
+            <p className="text-lg font-bold">Wayland Baptist University</p>
+            <p>IT Assistant | Plainview, TX</p>
+            <p>1996 - 1998</p>
+          </div>
+          <div className="mb-6">
+            <p className="text-lg font-bold">Wolf Camera</p>
+            <p>Photofinishing Specialist | Plano, TX</p>
+            <p>1999 - 2000</p>
+          </div>
+        </section>
+        <section>
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Education
+          </h2>
+          <div className="mb-6">
+            <p className="text-lg font-bold">B.A.A.S. Economics</p>
+            <p className="text-sm text-gray-600">
+              University of North Texas, Aug 2011 - Aug 2014
+            </p>
+            <p className="text-sm text-gray-600">
+              Coursework: Finance, Statistics, CS
+            </p>
+          </div>
+          <div>
+            <p className="text-lg font-bold">A.S. Finance</p>
+            <p className="text-sm text-gray-600">
+              Collin College, Aug 1998 - May 2000
+            </p>
+            <p className="text-sm text-gray-600">
+              Coursework: Accounting, Economics
+            </p>
+          </div>
         </section>
         {/* <section>
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
