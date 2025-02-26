@@ -168,15 +168,7 @@ function Resume() {
           </h2>
           <ul className="list-disc space-y-2 pl-5 text-sm text-gray-700">
             <li>
-              <strong>AWS Localstack Minikube Infra Project</strong>
-              <a
-                href="https://github.com/mhackersu/infra-services"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {' '}
-                - GitHub
-              </a>
+              <strong>Minikube Localstack</strong>
               <p>
                 A Kubernetes resiliency exercise using Docker, Minikube, and
                 Localstack to simulate AWS infrastructure. Includes establishing
@@ -187,31 +179,16 @@ function Resume() {
             </li>
             <li>
               <strong>Kubernetes Debugging Helper</strong>
-              <a
-                href="https://github.com/mhackersu/k8s-debuging-helper-app"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {' '}
-                - GitHub
-              </a>
               <p>
                 A ReactJS application that aids developers with Kubernetes
                 debugging procedures app that guides users through the various
                 k8s debugging, providing step-by-step assistance to diagnose and
-                resolve issues
+                resolve common error message that can be experienced when
+                deploying applications that run on kubernetes infrastructure.
               </p>
             </li>
             <li>
               <strong>Bird Feeder</strong>
-              <a
-                href="https://github.com/mhackersu/Birdfeeder"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {' '}
-                - GitHub
-              </a>
               <p>
                 A golden service that instanciates a Go service via a roubust
                 Dockerfile that fetches data from GCP data layer, performs
