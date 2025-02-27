@@ -170,22 +170,31 @@ function Resume() {
             <li>
               <strong>Bird Feeder</strong>
               <p>
-                A golden service that instanciates a Go service via a roubust
-                Dockerfile that fetches data from GCP data layer, performs
-                standard deviation calculations, and outputs calculations as
-                JSONL to the shell; Inputs are passed at instantiation for
-                seamless service integration into a larger microservice cloud
-                platform architecture.
+                A golden{' '}
+                <strong>
+                  <a
+                    href="https://github.com/mhackersu/bird-feeder"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    service
+                  </a>
+                </strong>{' '}
+                that instanciates a Go service via a roubust Dockerfile that
+                fetches data from GCP data layer, performs standard deviation
+                calculations, and outputs calculations as JSONL to the shell;
+                Inputs are passed at instantiation for seamless service
+                integration into a larger microservice cloud platform
+                architecture.
               </p>
             </li>
             <li>
               <strong>Minikube Localstack</strong>
               <p>
-                A Kubernetes resiliency exercise using Docker, Minikube, and
-                Localstack to simulate AWS infrastructure. Includes establishing
-                a local k8s cluster, deploy producer-consumer services, and
-                implement liveness probes to automate health checks and ensure
-                service reliability.
+                A resiliant Flywheel Kubernetes stack using Docker, Minikube,
+                and Localstack to simulate AWS infrastructure. Includes local
+                k8s cluster, producer & consumer services, liveness probes, and
+                automate health checks that ensure service reliability.
               </p>
             </li>
             <li>
