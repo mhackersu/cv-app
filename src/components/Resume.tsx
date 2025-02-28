@@ -163,29 +163,25 @@ function Resume() {
           </div>
         </section>
         <section className="mb-8">
-          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
-            Projects
-          </h2>
+          <a
+            href="https://www.bfsio.net/projects"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+              Projects
+            </h2>
+          </a>
           <ul className="list-disc space-y-2 pl-5 text-sm text-gray-700">
             <li>
               <strong>Bird Feeder</strong>
               <p>
-                A golden{' '}
-                <strong>
-                  <a
-                    href="https://github.com/mhackersu/bird-feeder"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    service
-                  </a>
-                </strong>{' '}
-                that instanciates a Go service via a roubust Dockerfile that
-                fetches data from GCP data layer, performs standard deviation
-                calculations, and outputs calculations as JSONL to the shell;
-                Inputs are passed at instantiation for seamless service
-                integration into a larger microservice cloud platform
-                architecture.
+                A microwebservice that instanciates a Go function via a roubust
+                Dockerfile that fetches data from GCP data layer, performs
+                standard deviation calculations, and outputs calculations as
+                JSONL to the shell; Inputs are passed at instantiation for
+                seamless service integration into a larger microservice cloud
+                platform architecture.
               </p>
             </li>
             <li>
