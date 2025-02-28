@@ -280,11 +280,11 @@ function Resume() {
           </ul>
         </section> */}
       </div>
-      <div className="no-print mt-8 flex justify-center">
+      {/* <div className="no-print mt-8 flex justify-center">
         <button className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700">
           Print / Save as PDF
         </button>
-      </div>
+      </div> */}
     </div>
   )
 }
