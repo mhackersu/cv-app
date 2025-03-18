@@ -5,31 +5,32 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg text-gray-600">hacker@bfsio.net</p>
-            <p className="text-sm text-gray-500">830-313-9450</p>
+            <p className="text-lg">Platform Engineer</p>
+            <p className="text-sm text-gray-600">
+              hacker@bfsio.net | 830-313-9450
+            </p>
           </div>
         </div>
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
           <ul className="list-disc space-y-1 pl-5">
+            <li>Debugging, Optimizing, Unit & Integration Tests, Containers</li>
             <li>Languages: Python, Go, Ruby, Javascript</li>
             <li>Databases: PostgreSQL, MySQL, MSSQL, NoSQL</li>
-            <li>Testing: Unit Testing, Integration Testing</li>
             <li>Cloud Services: AWS, GCP, Azure</li>
             <li>Infra: GKE, EKS, TF, Linux, SuperMicro</li>
             <li>Networking: Cloudflare, F5, Mikrotik, L3, L7</li>
-            <li>DevOps: SDLC, YML, JSON, JQ, SED, Bash, Vim</li>
-            <li>Containers: Docker, Kubernetes, Helm, Werf</li>
+            <li>Software: SDLC, YML, JSON, JQ, SED, Bash, Vim</li>
           </ul>
         </section>
         <br></br>
         <section>
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
-            Work Experience
+            Full-Time Work Experience
           </h2>
           <div className="mb-6">
             <p className="text-lg font-bold">
-              Lead DevOps Engineer | WP Engine
+              Lead SRE Engineer (Edge) | WP Engine
             </p>
             <p className="text-sm text-gray-600">
               Nov 2022 - Nov 2024 (Remote)
@@ -77,7 +78,7 @@ function Resume() {
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">
-              Sr. DevOps Engineer | Fairway Mortgage
+              Sr. Platform Engineer | Fairway Mortgage
             </p>
             <p className="text-sm text-gray-600">
               Feb 2020 - Oct 2022 (Remote)
@@ -118,7 +119,7 @@ function Resume() {
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">
-              DevOps Engineer | Tyler Technologies
+              Sr. DevOps Engineer | Tyler Technologies
             </p>
             <p className="text-sm text-gray-600">
               Jun 2018 - Jan 2020 (Remote)
