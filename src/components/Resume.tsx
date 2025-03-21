@@ -224,7 +224,7 @@ function Resume() {
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">2015 - General Assembly</p>
-            <p>Web Developmemt Immersive, Austin, TX</p>
+            <p>Full-Stack Web Developer, Austin, TX</p>
           </div>
         </section>
         <section className="mb-8">
