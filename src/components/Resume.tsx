@@ -5,7 +5,7 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg">Cloud Platform Engineer</p>
+            <p className="text-lg">Platform Engineer</p>
             <p className="text-sm text-gray-600">
               hacker@bfsio.net | 830-313-9450
             </p>
@@ -26,14 +26,13 @@ function Resume() {
         <br></br>
         <section>
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
-            Full-Time Work Experience
+            Professional Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">
-              Lead SRE Engineer (Edge) | WP Engine
-            </p>
+            <p className="text-lg font-bold">Platform SRE</p>
+            <p className="text-sm font-bold">WP Engine</p>
             <p className="text-sm text-gray-600">
-              Nov 2022 - Nov 2024 (Remote)
+              2022-2024 | Austin, TX (Remote)
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
@@ -61,9 +60,9 @@ function Resume() {
                 Lead SRE for Domain Validation Services - 2022-2023
               </strong>
               <li>
-                Operationalized and supported the transition from a Ruby-based
-                in-house DNS routing platform to a Go-based Cloudflare SaaS
-                Enterprise Orange-to-Orange (O2O) proxy system.
+                Coordinated with Ukraine team as we transisitioned from a
+                Ruby-based in-house DNS routing platform to a Go-based
+                Cloudflare SaaS Enterprise Orange-to-Orange (O2O) proxy system.
                 <li>
                   Enhanced customer onboarding configurations by implementing
                   real-time API endpoints for dynamic UI status updates.
@@ -77,11 +76,10 @@ function Resume() {
             </ul>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">
-              Sr. Platform Engineer | Fairway Mortgage
-            </p>
+            <p className="text-lg font-bold">Sr. Platform Engineer</p>
+            <p className="text-sm font-bold">Fairway Mortgage</p>
             <p className="text-sm text-gray-600">
-              Feb 2020 - Oct 2022 (Remote)
+              2020-2022 | Carrollton, TX (Remote)
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
@@ -118,11 +116,10 @@ function Resume() {
             </ul>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">
-              Sr. DevOps Engineer | Tyler Technologies
-            </p>
+            <p className="text-lg font-bold">Sr. DevOps Engineer</p>
+            <p className="text-sm font-bold">Tyler Technologies</p>
             <p className="text-sm text-gray-600">
-              Jun 2018 - Jan 2020 (Remote)
+              2018-2020 | Yarmouth, ME (Remote)
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
@@ -211,36 +208,19 @@ function Resume() {
             Freelance Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">2017 - Pizza Hut Digital Labs</p>
-            <p>DevOps Engineer, London, UK</p>
+            <p className="text-lg font-bold">DevOps Engineer</p>
+            <p className="text-sm font-bold">Pizza Hut Digital Ventures</p>
+            <p className="text-sm text-gray-600">2017 | London, UK (Remote)</p>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">2016 - TxDOT</p>
-            <p>Full-Stack Web Developer, Austin, TX</p>
+            <p className="text-lg font-bold">Full-Stack Web Developer</p>
+            <p className="text-sm font-bold">TxDOT</p>
+            <p className="text-sm text-gray-600">2016 | Austin, TX</p>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">2015 - General Assembly</p>
-            <p>Full-Stack Web Developer, Austin, TX</p>
-          </div>
-        </section>
-        <section className="mb-8">
-          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
-            Previous Work Experience
-          </h2>
-          <div className="mb-6">
-            <p className="text-lg font-bold">Texas Health Resources</p>
-            <p>IT Director | Plano, TX</p>
-            <p>2004 - 2011</p>
-          </div>
-          <div className="mb-6">
-            <p className="text-lg font-bold">Waymark Internet Services</p>
-            <p>Network Support | Irving, TX</p>
-            <p>1999 - 2003</p>
-          </div>
-          <div className="mb-6">
-            <p className="text-lg font-bold">Wayland Baptist University</p>
-            <p>IT Assistant | Plainview, TX</p>
-            <p>1996 - 1998</p>
+            <p className="text-lg font-bold">Full-Stack Web Developer</p>
+            <p className="text-sm font-bold">General Assembly</p>
+            <p className="text-sm text-gray-600">2015 | Austin, TX</p>
           </div>
         </section>
         <section>
@@ -249,19 +229,34 @@ function Resume() {
           </h2>
           <div className="mb-6">
             <p className="text-lg font-bold">B.A.A.S. Economics</p>
-            <p className="text-sm text-gray-600">
-              University of North Texas, 2010 - 2014
-            </p>
-            <p className="text-sm text-gray-600">
-              Coursework: Finance, Statistics, CS
-            </p>
+            <p className="text-sm font-bold">University of North Texas</p>
+            <p className="text-sm text-gray-600">2010-2014 | Denton, TX</p>
           </div>
           <div>
             <p className="text-lg font-bold">A.S. Finance</p>
-            <p className="text-sm text-gray-600">Collin College, 1998 - 2000</p>
-            <p className="text-sm text-gray-600">
-              Coursework: Accounting, Economics
-            </p>
+            <p className="text-sm font-bold">Collin College</p>
+            <p className="text-sm text-gray-600">1998-2000 | Plano, TX</p>
+          </div>
+        </section>
+        <br></br>
+        <section>
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Previous Experience
+          </h2>
+          <div className="mb-6">
+            <p className="text-lg font-bold">IT Director</p>
+            <p className="text-sm font-bold">Texas Health Resources</p>
+            <p className="text-sm">2004-2010 | Plano, TX</p>
+          </div>
+          <div className="mb-6">
+            <p className="text-lg font-bold">Network Support Specialist</p>
+            <p className="text-sm font-bold">Waymark Internet Services</p>
+            <p className="text-sm text-gray-600">1999-2003 | Irving, TX</p>
+          </div>
+          <p className="text-lg font-bold">Network Support Assistant</p>
+          <div className="mb-6">
+            <p className="text-sm font-bold">Wayland Baptist University</p>
+            <p className="text-sm text-gray-600">1996-1998 | Plainview, TX</p>
           </div>
         </section>
         {/* <section>
