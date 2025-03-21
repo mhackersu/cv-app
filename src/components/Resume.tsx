@@ -211,15 +211,11 @@ function Resume() {
             Freelance Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">
-              2017 - Pizza Hut Digital Labs
-            </p>
+            <p className="text-lg font-bold">2017 - Pizza Hut Digital Labs</p>
             <p>DevOps Engineer, London, UK</p>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">
-              2016 - TxDOT
-            </p>
+            <p className="text-lg font-bold">2016 - TxDOT</p>
             <p>Full-Stack Web Developer, Austin, TX</p>
           </div>
           <div className="mb-6">
@@ -237,14 +233,14 @@ function Resume() {
             <p>2004 - 2011</p>
           </div>
           <div className="mb-6">
+            <p className="text-lg font-bold">Waymark Internet Services</p>
+            <p>Network Support | Irving, TX</p>
+            <p>1999 - 2003</p>
+          </div>
+          <div className="mb-6">
             <p className="text-lg font-bold">Wayland Baptist University</p>
             <p>IT Assistant | Plainview, TX</p>
             <p>1996 - 1998</p>
-          </div>
-          <div className="mb-6">
-            <p className="text-lg font-bold">Waymark Internet Services</p>
-            <p>Network Support Specialist | Irving, TX</p>
-            <p>1999 - 2003</p>
           </div>
         </section>
         <section>
@@ -254,7 +250,7 @@ function Resume() {
           <div className="mb-6">
             <p className="text-lg font-bold">B.A.A.S. Economics</p>
             <p className="text-sm text-gray-600">
-              University of North Texas, Aug 2011 - Aug 2014
+              University of North Texas, 2010 - 2014
             </p>
             <p className="text-sm text-gray-600">
               Coursework: Finance, Statistics, CS
@@ -262,9 +258,7 @@ function Resume() {
           </div>
           <div>
             <p className="text-lg font-bold">A.S. Finance</p>
-            <p className="text-sm text-gray-600">
-              Collin College, Aug 1998 - May 2000
-            </p>
+            <p className="text-sm text-gray-600">Collin College, 1998 - 2000</p>
             <p className="text-sm text-gray-600">
               Coursework: Accounting, Economics
             </p>
