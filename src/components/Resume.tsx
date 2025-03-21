@@ -243,7 +243,7 @@ function Resume() {
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">Waymark Internet Services</p>
-            <p>Support Specialist | Irving, TX</p>
+            <p>Network Support Specialist | Irving, TX</p>
             <p>1999 - 2003</p>
           </div>
         </section>
