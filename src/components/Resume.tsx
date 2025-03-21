@@ -5,7 +5,7 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg">Platform Engineer</p>
+            <p className="text-lg">Full-Stack Engineer</p>
             <p className="text-sm text-gray-600">
               hacker@bfsio.net | 830-313-9450
             </p>
@@ -14,13 +14,20 @@ function Resume() {
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
           <ul className="list-disc space-y-1 pl-5">
-            <li>Debugging, Optimizing, Unit & Integration Tests, Containers</li>
-            <li>Languages: Python, Go, Ruby, Javascript</li>
-            <li>Databases: PostgreSQL, MySQL, MSSQL, NoSQL</li>
-            <li>Cloud Services: AWS, GCP, Azure</li>
-            <li>Infra: GKE, EKS, TF, Linux, SuperMicro</li>
-            <li>Networking: Cloudflare, F5, Mikrotik, L3, L7</li>
-            <li>Software: SDLC, YML, JSON, JQ, SED, Bash, Vim</li>
+            <li>
+              Following Agile principles and contributing to the team effort.
+            </li>
+            <li>
+              Debugging and optimizing existing services, writing new code, and
+              new unit tests.
+            </li>
+            <li>
+              Setting up containers, debugging existing containers, attending to
+              on-call.
+            </li>
+            <li>Languages: Py, Go, Ruby, JS</li>
+            <li>Databases: PostgreSQL, NoSQL</li>
+            <li>Cloud Services: AWS, GCP, AZ</li>
           </ul>
         </section>
         <br></br>
@@ -29,7 +36,7 @@ function Resume() {
             Professional Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">Platform SRE</p>
+            <p className="text-lg font-bold">Sr. Software Engineer</p>
             <p className="text-sm font-bold">WP Engine</p>
             <p className="text-sm text-gray-600">
               2022-2024 | Austin, TX (Remote)
