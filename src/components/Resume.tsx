@@ -5,7 +5,7 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg">Platform Engineer</p>
+            <p className="text-lg">Cloud Platform Engineer</p>
             <p className="text-sm text-gray-600">
               hacker@bfsio.net | 830-313-9450
             </p>
@@ -234,7 +234,7 @@ function Resume() {
           <div className="mb-6">
             <p className="text-lg font-bold">Texas Health Resources</p>
             <p>IT Director | Plano, TX</p>
-            <p>2001 - 2011</p>
+            <p>2004 - 2011</p>
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">Wayland Baptist University</p>
@@ -242,9 +242,9 @@ function Resume() {
             <p>1996 - 1998</p>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Wolf Camera</p>
-            <p>Photofinishing Specialist | Plano, TX</p>
-            <p>1999 - 2000</p>
+            <p className="text-lg font-bold">Waymark Internet Services</p>
+            <p>Support Specialist | Irving, TX</p>
+            <p>1999 - 2003</p>
           </div>
         </section>
         <section>
