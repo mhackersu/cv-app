@@ -212,13 +212,13 @@ function Resume() {
           </h2>
           <div className="mb-6">
             <p className="text-lg font-bold">
-              2017 - Pizza Hut Digital Ventures
+              2017 - Pizza Hut Digital Labs
             </p>
             <p>DevOps Engineer, London, UK</p>
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">
-              2016 - Texas Dept. of Public Safety
+              2016 - TxDPS
             </p>
             <p>Front-End Web Developer, Austin, TX</p>
           </div>
