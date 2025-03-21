@@ -220,11 +220,11 @@ function Resume() {
             <p className="text-lg font-bold">
               2016 - TxDOT
             </p>
-            <p>Front-End Web Developer, Austin, TX</p>
+            <p>Full-Stack Web Developer, Austin, TX</p>
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">2015 - General Assembly</p>
-            <p>Full-Stack Web Developer, Austin, TX</p>
+            <p>Web Developmemt Immersive, Austin, TX</p>
           </div>
         </section>
         <section className="mb-8">
