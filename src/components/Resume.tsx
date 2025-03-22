@@ -27,13 +27,13 @@ function Resume() {
             </li>
             <br></br>
             <li>
-              <b>Languages:</b> Py, Go, Ruby, JS
+              <b className="text-black">Languages:</b> Py, Go, Ruby, JS
             </li>
             <li>
-              <b>Databases:</b> PostgreSQL, NoSQL
+              <b className="text-black">Databases:</b> PostgreSQL, NoSQL
             </li>
             <li>
-              <b>Cloud Services:</b> AWS, GCP, AZ
+              <b className="text-black">Cloud Services:</b> AWS, GCP, AZ
             </li>
           </ul>
         </section>
@@ -51,7 +51,6 @@ function Resume() {
               </a>
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
-              <br></br>
               <li>
                 Streamlined classes in multi-tenant domain-routing architecture
                 <i> (e.g. wpeng.in)</i> servicing <i>(n=1x10^6)</i> customer
@@ -81,7 +80,6 @@ function Resume() {
               </a>
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
-              <br></br>
               <li>
                 Led implementation team for CI modernization on mission-critical
                 ACH transactional services processing $7B USD yearly.
@@ -106,7 +104,6 @@ function Resume() {
               </a>
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
-              <br></br>
               <li>Lead TF Enterprise SME on AWS GovCloud.</li>
               <li>
                 Created new TF modules that automated customer domain onboarding
@@ -130,10 +127,10 @@ function Resume() {
               Projects
             </h2>
           </a>
-          <ul className="list-disc space-y-2 pl-5 text-sm text-gray-700">
+          <ul className="list-disc space-y-2 pl-5 text-sm">
             <li>
               <strong>Bird Feeder</strong>
-              <p>
+              <p className="text-gray-700">
                 A CLI that passes inputs into a serverless Go function that
                 fetches data via GRPC, performs some financial calculations, and
                 prints JSONL output to the shell.
@@ -141,7 +138,7 @@ function Resume() {
             </li>
             <li>
               <strong>Minikube Localstack</strong>
-              <p>
+              <p className="text-gray-700">
                 A k8s/Localstack template for local AWS development. Includes
                 local k8s cluster, producer & consumer services, liveness
                 probes, and automate health checks that ensure service
@@ -150,7 +147,7 @@ function Resume() {
             </li>
             <li>
               <strong>Kubernetes Debugging Helper</strong>
-              <p>
+              <p className="text-gray-700">
                 Helps developers with k8s debugging procedures; Provides
                 step-by-step assistance to quickly diagnose and resolve common
                 errors that can be experienced when deploying k8s apps.
@@ -220,7 +217,7 @@ function Resume() {
             <a>
               <a className="text-sm font-bold">Texas Health Resources</a>
               <a> </a>
-              <a className="text-sm">2004-2010 | Plano, TX</a>
+              <a className="text-sm text-gray-600">2004-2010 | Plano, TX</a>
             </a>
           </div>
           <div className="mb-6">
