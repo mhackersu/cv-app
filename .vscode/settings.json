@@ -4,5 +4,11 @@
   },
   "files.associations": {
     "*.css": "tailwindcss"
-  }
+  },
+  "spellright.language": [],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ]
 }

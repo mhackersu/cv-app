@@ -13,7 +13,7 @@ function Resume() {
         </div>
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
-          <ul className="list-disc space-y-1 pl-5">
+          <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
             <li>
               Following Agile principles and contributing to the team effort.
             </li>
@@ -25,143 +25,96 @@ function Resume() {
               Setting up containers, debugging existing containers, attending to
               on-call.
             </li>
-            <li>Languages: Py, Go, Ruby, JS</li>
-            <li>Databases: PostgreSQL, NoSQL</li>
-            <li>Cloud Services: AWS, GCP, AZ</li>
+            <br></br>
+            <li>
+              <b>Languages:</b> Py, Go, Ruby, JS
+            </li>
+            <li>
+              <b>Databases:</b> PostgreSQL, NoSQL
+            </li>
+            <li>
+              <b>Cloud Services:</b> AWS, GCP, AZ
+            </li>
           </ul>
         </section>
-        <br></br>
         <section>
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Professional Experience
           </h2>
           <div className="mb-6">
             <p className="text-lg font-bold">Sr. Software Engineer</p>
-            <p className="text-sm font-bold">WP Engine</p>
-            <p className="text-sm text-gray-600">
-              2022-2024 | Austin, TX (Remote)
-            </p>
+            <a>
+              <a className="text-sm font-bold">WP Engine</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">
+                2022-2024 | Austin, TX (Remote)
+              </a>
+            </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
-              <strong>Cloudflare Enterprise SME - 2024</strong>
-              <li>Domain Routing Automation in Go and Ruby</li>
               <li>
-                Maintained and enhanced an automated SSL certificate
-                provisioning system leveraging Cloudflare Orange Cloud
-                Enterprise SaaS, integrating Let&apos;s Encrypt and Google Cloud
-                SSL services.
-                <li>
-                  Transitioned from a legacy manual queuing process to a
-                  streamlined solution for onboarding unique customer subdomains
-                  under multi-tenant apex domains (e.g., wpengine.com,
-                  wpeng.in).
-                </li>
-                <li>
-                  Improved system reliability and scalability by refining UI
-                  workflows and real-time status tracking, reducing customer
-                  support interactions and driving customer satisfaction.
-                </li>
+                Streamlined classes in multi-tenant domain-routing architecture
+                <i> (e.g. wpeng.in)</i> servicing <i>(n=1x10^6)</i> customer
+                domains.
               </li>
-              <br></br>
-              <strong>
-                Lead SRE for Domain Validation Services - 2022-2023
-              </strong>
               <li>
-                Coordinated with Ukraine team as we transisitioned from a
-                Ruby-based in-house DNS routing platform to a Go-based
-                Cloudflare SaaS Enterprise Orange-to-Orange (O2O) proxy system.
-                <li>
-                  Enhanced customer onboarding configurations by implementing
-                  real-time API endpoints for dynamic UI status updates.
-                </li>
-                <li>
-                  Delivered improved reliability, scalability, and operational
-                  efficiency, supporting millions of domains with seamless
-                  integration into a multi-tenant architecture.
-                </li>
+                Leveraged Cloudflare Orange Cloud Enterprise SaaS to automate
+                Let&apos;s Encrypt and Google Cloud SSL renewals.
+              </li>
+              <li>
+                Led team for system rewrite for domain routing in Go/GRPC with a
+                Cloudflare SaaS Enterprise O2O Proxy.
+              </li>
+              <li>
+                Enhanced customer onboarding experience by implementing more
+                granular API endpoints for more dynamic UI status updates.
               </li>
             </ul>
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">Sr. Platform Engineer</p>
-            <p className="text-sm font-bold">Fairway Mortgage</p>
-            <p className="text-sm text-gray-600">
-              2020-2022 | Carrollton, TX (Remote)
-            </p>
+            <a>
+              <a className="text-sm font-bold">Fairway Mortgage</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">
+                2020-2022 | Carrollton, TX (Remote)
+              </a>
+            </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
-              <strong>Lead CI Integration Engineer - 2022</strong>
               <li>
-                Led the implementation of CI modernization as CI/CD
-                Transformation Leader with integration of push-button release
-                and approval gates in a transactional system that processed $7B
-                ARR in ACH bank transfers. The modernization significantly
-                reduced manual release time by 80% and fostered alignment
-                between engineering teams and non-technical IT stakeholders with
-                GitOps-style communication strategies.
-              </li>
-              <br></br>
-              <strong>Lead Terraform Engineer 2020-2021</strong>
-              <li>
-                Designed and implemented comprehensive CI pipelines for all
-                environments (dev, test, staging, and production) using
-                Terraform, incorporating ephemeral lower environments to
-                optimize infrastructure utilization and reduce cloud spend by
-                enabling short-lived resources tailored to workload demands.
+                Led implementation team for CI modernization on mission-critical
+                ACH transactional services processing $7B USD yearly.
               </li>
               <li>
-                Streamlined the UAT process, significantly reducing testing
-                cycle times and improving defect detection through consistent,
-                automated deployment pipelines.
+                Created fully-developed adhoc lowers using AZ resources,
+                complete with build, release, and integration test stages.
               </li>
               <li>
-                Enhanced production handoffs by automating environment
-                provisioning, ensuring smoother, faster, and more reliable
-                releases, which minimized downtime and accelerated feature
-                delivery to customers.
+                Including unit tests, Created serverless CI services using
+                AZFunctionApp.
               </li>
             </ul>
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">Sr. DevOps Engineer</p>
-            <p className="text-sm font-bold">Tyler Technologies</p>
-            <p className="text-sm text-gray-600">
-              2018-2020 | Yarmouth, ME (Remote)
-            </p>
+            <a>
+              <a className="text-sm font-bold">Tyler Technologies</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">
+                2018-2020 | Yarmouth, ME (Remote)
+              </a>
+            </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <br></br>
-              <strong>AWS GovCloud Engineer - 2019-2020</strong>
+              <li>Lead TF Enterprise SME on AWS GovCloud.</li>
               <li>
-                Automated manual processes by integrating customer domain
-                onboarding via Route53 API into CI via ADO.
+                Created new TF modules that automated customer domain onboarding
+                steps.
               </li>
               <li>
-                Migrated IAM configurations into IaC to upgrade to more safe and
-                trackable identity and access management.
-              </li>
-              <br></br>
-              <strong>Lead Terraform Enterprise Engineer - 2018</strong>
-              <li>
-                Deployed TF org-wide and collaborated with engineering teams to
-                drive the IaC adoption.
-              </li>
-              <li>
-                Served as Lead Terraform Enterprise Engineer for government
-                clients, deploying Terraform organization-wide to standardize
-                and automate infrastructure as code (IaC) practices across
-                engineering teams, including networking teams on F5 infra.
-              </li>
-              <li>
-                Partnered with engineering and DevOps teams to replace manual
-                customer domain and environment provisioning workflows with
-                reusable Terraform modules, enabling reliable and efficient
-                automation processes.
-              </li>
-              <li>
-                Improved operational efficiency and reliability by streamlining
-                provisioning tasks, reducing errors, and enhancing the
-                management of customer-specific domain configurations and
-                environments.
+                Migrated IAM configurations into TF to create a more manageable
+                identity and access management experience.
               </li>
               <br></br>
             </ul>
@@ -181,12 +134,9 @@ function Resume() {
             <li>
               <strong>Bird Feeder</strong>
               <p>
-                A microwebservice that instanciates a Go function via a roubust
-                Dockerfile that fetches data from GCP data layer, performs
-                standard deviation calculations, and outputs calculations as
-                JSONL to the shell; Inputs are passed at instantiation for
-                seamless service integration into a larger microservice cloud
-                platform architecture.
+                A CLI that passes inputs into a Go serverless function that
+                fetches data from GCP data layer, performs financial
+                calculations, and prints JSONL output to the shell.
               </p>
             </li>
             <li>
