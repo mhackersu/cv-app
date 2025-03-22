@@ -134,28 +134,26 @@ function Resume() {
             <li>
               <strong>Bird Feeder</strong>
               <p>
-                A CLI that passes inputs into a Go serverless function that
-                fetches data from GCP data layer, performs financial
-                calculations, and prints JSONL output to the shell.
+                A CLI that passes inputs into a serverless Go function that
+                fetches data via GRPC, performs some financial calculations, and
+                prints JSONL output to the shell.
               </p>
             </li>
             <li>
               <strong>Minikube Localstack</strong>
               <p>
-                A resiliant Flywheel Kubernetes stack using Docker, Minikube,
-                and Localstack to simulate AWS infrastructure. Includes local
-                k8s cluster, producer & consumer services, liveness probes, and
-                automate health checks that ensure service reliability.
+                A k8s/Localstack template for local AWS development. Includes
+                local k8s cluster, producer & consumer services, liveness
+                probes, and automate health checks that ensure service
+                reliability.
               </p>
             </li>
             <li>
               <strong>Kubernetes Debugging Helper</strong>
               <p>
-                A ReactJS application that aids developers with Kubernetes
-                debugging procedures app that guides users through the various
-                k8s debugging, providing step-by-step assistance to diagnose and
-                resolve common error message that can be experienced when
-                deploying applications that run on kubernetes infrastructure.
+                Helps developers with k8s debugging procedures; Provides
+                step-by-step assistance to quickly diagnose and resolve common
+                errors that can be experienced when deploying k8s apps.
               </p>
             </li>
           </ul>
