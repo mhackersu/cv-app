@@ -166,18 +166,29 @@ function Resume() {
           </h2>
           <div className="mb-6">
             <p className="text-lg font-bold">DevOps Engineer</p>
-            <p className="text-sm font-bold">Pizza Hut Digital Ventures</p>
-            <p className="text-sm text-gray-600">2017 | London, UK (Remote)</p>
+            <a>
+              <a className="text-sm font-bold">Pizza Hut Digital Ventures</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">
+                2017 | London, UK (Remote)
+              </a>
+            </a>
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">Full-Stack Web Developer</p>
-            <p className="text-sm font-bold">TxDOT</p>
-            <p className="text-sm text-gray-600">2016 | Austin, TX</p>
+            <a>
+              <a className="text-sm font-bold">TxDOT</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">2016 | Austin, TX</a>
+            </a>
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">Full-Stack Web Developer</p>
-            <p className="text-sm font-bold">General Assembly</p>
-            <p className="text-sm text-gray-600">2015 | Austin, TX</p>
+            <a>
+              <a className="text-sm font-bold">General Assembly</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">2015 | Austin, TX</a>
+            </a>
           </div>
         </section>
         <section>
@@ -186,13 +197,19 @@ function Resume() {
           </h2>
           <div className="mb-6">
             <p className="text-lg font-bold">B.A.A.S. Economics</p>
-            <p className="text-sm font-bold">University of North Texas</p>
-            <p className="text-sm text-gray-600">2010-2014 | Denton, TX</p>
+            <a>
+              <a className="text-sm font-bold">University of North Texas</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">2010-2014 | Denton, TX</a>
+            </a>
           </div>
           <div>
             <p className="text-lg font-bold">A.S. Finance</p>
-            <p className="text-sm font-bold">Collin College</p>
-            <p className="text-sm text-gray-600">1998-2000 | Plano, TX</p>
+            <a>
+              <a className="text-sm font-bold">Collin College</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">1998-2000 | Plano, TX</a>
+            </a>
           </div>
         </section>
         <br></br>
@@ -202,18 +219,27 @@ function Resume() {
           </h2>
           <div className="mb-6">
             <p className="text-lg font-bold">IT Director</p>
-            <p className="text-sm font-bold">Texas Health Resources</p>
-            <p className="text-sm">2004-2010 | Plano, TX</p>
+            <a>
+              <a className="text-sm font-bold">Texas Health Resources</a>
+              <a> </a>
+              <a className="text-sm">2004-2010 | Plano, TX</a>
+            </a>
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">Network Support Specialist</p>
-            <p className="text-sm font-bold">Waymark Internet Services</p>
-            <p className="text-sm text-gray-600">1999-2003 | Irving, TX</p>
+            <a>
+              <a className="text-sm font-bold">Waymark Internet Services</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">1999-2003 | Irving, TX</a>
+            </a>
           </div>
           <p className="text-lg font-bold">Network Support Assistant</p>
           <div className="mb-6">
-            <p className="text-sm font-bold">Wayland Baptist University</p>
-            <p className="text-sm text-gray-600">1996-1998 | Plainview, TX</p>
+            <a>
+              <a className="text-sm font-bold">Wayland Baptist University</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">1996-1998 | Plainview, TX</a>
+            </a>
           </div>
         </section>
         {/* <section>
