@@ -137,7 +137,7 @@ function Resume() {
               </p>
             </li>
             <li>
-              <strong>Financial Analysis Calculator</strong>
+              <strong>Py/Docker Financial Analysis Calculator</strong>
               <p className="text-gray-700">
                 A Py/Docker service that etches prices for each currency pair
                 that Gemini trades, calculates standard deviation and prints
