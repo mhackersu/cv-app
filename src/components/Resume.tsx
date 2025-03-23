@@ -129,11 +129,11 @@ function Resume() {
           </a>
           <ul className="list-disc space-y-2 pl-5 text-sm">
             <li>
-              <strong>Bird Feeder</strong>
+              <strong>GRPC Event Operator</strong>
               <p className="text-gray-700">
                 A CLI that passes inputs into a serverless Go function that
-                fetches data via GRPC, performs some financial calculations, and
-                prints JSONL output to the shell.
+                fetches data, performs some calculation, and prints JSONL output
+                to the shell with a toggle to write output into event stream.
               </p>
             </li>
             <li>
