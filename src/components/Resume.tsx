@@ -146,11 +146,12 @@ function Resume() {
               </p>
             </li>
             <li>
-              <strong>Kubernetes Debugging Helper</strong>
+              <strong>Infra Assist Developer Helper</strong>
               <p className="text-gray-700">
-                Helps developers with k8s debugging procedures; Provides
-                step-by-step assistance to quickly diagnose and resolve common
-                errors that can be experienced when deploying k8s apps.
+                Self-service helps guide developers thru k8s debugging
+                procedures; Provides step-by-step assistance to quickly diagnose
+                and resolve common errors and issues that can crop up when
+                deploying k8s apps.
               </p>
             </li>
           </ul>
