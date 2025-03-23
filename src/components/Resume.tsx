@@ -137,16 +137,15 @@ function Resume() {
               </p>
             </li>
             <li>
-              <strong>Minikube Localstack</strong>
+              <strong>Financial Analysis Calculator</strong>
               <p className="text-gray-700">
-                A k8s/Localstack template for local AWS development. Includes
-                local k8s cluster, producer & consumer services, liveness
-                probes, and automate health checks that ensure service
-                reliability.
+                A Py/Docker service that etches prices for each currency pair
+                that Gemini trades, calculates standard deviation and prints
+                output via JSONL.
               </p>
             </li>
             <li>
-              <strong>Infra Assist Developer Helper</strong>
+              <strong>Localstack Dev Templates</strong>
               <p className="text-gray-700">
                 Self-service helps guide developers thru k8s debugging
                 procedures; Provides step-by-step assistance to quickly diagnose
