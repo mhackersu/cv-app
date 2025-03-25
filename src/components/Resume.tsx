@@ -213,7 +213,7 @@ function Resume() {
             Previous Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">IT Director</p>
+            <p className="text-lg font-bold">IT Director, Finance</p>
             <a>
               <a className="text-sm font-bold">Texas Health Resources</a>
               <a> </a>
@@ -221,14 +221,14 @@ function Resume() {
             </a>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Network Support Specialist</p>
+            <p className="text-lg font-bold">Support, Tier III</p>
             <a>
               <a className="text-sm font-bold">Waymark Internet Services</a>
               <a> </a>
               <a className="text-sm text-gray-600">1999-2003 | Irving, TX</a>
             </a>
           </div>
-          <p className="text-lg font-bold">Network Support Assistant</p>
+          <p className="text-lg font-bold">IT, Network Support Assistant</p>
           <div className="mb-6">
             <a>
               <a className="text-sm font-bold">Wayland Baptist University</a>
