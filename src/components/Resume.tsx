@@ -129,28 +129,25 @@ function Resume() {
           </a>
           <ul className="list-disc space-y-2 pl-5 text-sm">
             <li>
-              <strong>GRPC Event Operator</strong>
+              <strong>Go Event Operator</strong>
               <p className="text-gray-700">
-                A CLI that passes inputs into a serverless Go function that
-                fetches data, performs some calculation, and prints JSONL output
-                to the shell with a toggle to write output into event stream.
+                A serverless Go function that fetches API data, performs
+                financial calculations, and prints JSONL output to the shell.
               </p>
             </li>
             <li>
-              <strong>Py/Docker Financial Analysis Calculator</strong>
+              <strong>Financial Analysis Calculator</strong>
               <p className="text-gray-700">
-                A Py/Docker service that etches prices for each currency pair
-                that Gemini trades, calculates standard deviation and prints
-                output via JSONL.
+                A Py/Docker service that fetches currency prices via Gemeni API,
+                calculates standard deviation and prints output via JSONL.
               </p>
             </li>
             <li>
-              <strong>Localstack Dev Templates</strong>
+              <strong>Standard Deviation Function</strong>
               <p className="text-gray-700">
-                Self-service helps guide developers thru k8s debugging
-                procedures; Provides step-by-step assistance to quickly diagnose
-                and resolve common errors and issues that can crop up when
-                deploying k8s apps.
+                Using Py, write a function that outputs the standard deviation
+                between the price of two currencies every 60 seconds, using API
+                lookup methods.
               </p>
             </li>
           </ul>
