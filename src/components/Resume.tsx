@@ -138,7 +138,7 @@ function Resume() {
             <li>
               <strong>Financial Analysis Calculator</strong>
               <p className="text-gray-700">
-                A Py/Docker service that fetches currency prices via Gemeni API,
+                A Py/Docker service that fetches currency prices via Gemini API,
                 calculates standard deviation and prints output via JSONL.
               </p>
             </li>
@@ -167,7 +167,7 @@ function Resume() {
             </a>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Full-Stack Web Developer</p>
+            <p className="text-lg font-bold">Front-End Web Developer</p>
             <a>
               <a className="text-sm font-bold">TxDOT</a>
               <a> </a>
