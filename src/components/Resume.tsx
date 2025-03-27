@@ -131,8 +131,9 @@ function Resume() {
             <li>
               <strong>Go Event Operator</strong>
               <p className="text-gray-700">
-                A serverless Go function that fetches API data, performs
-                financial calculations, and prints JSONL output to the shell.
+                A serverless Go function that fetches Pub/Sub data, makes some
+                financial calculations, and then updates Pub/Sub data with
+                calculation result.
               </p>
             </li>
             <li>
