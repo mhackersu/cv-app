@@ -129,26 +129,24 @@ function Resume() {
           </a>
           <ul className="list-disc space-y-2 pl-5 text-sm">
             <li>
-              <strong>Go Event Operator</strong>
+              <strong>MiNovina</strong>
               <p className="text-gray-700">
-                A serverless Go function that fetches Pub/Sub data, makes some
-                financial calculations, and then updates Pub/Sub data with
-                calculation result.
+                MiNovina, an Online Prayer Chain, is a full-stack application
+                that runs on ReactJS & EdgeDB.
               </p>
             </li>
             <li>
-              <strong>Financial Analysis Calculator</strong>
+              <strong>DBM Studio</strong>
               <p className="text-gray-700">
-                A Py/Docker service that fetches currency prices via Gemini API,
-                calculates standard deviation and prints output via JSONL.
+                DBM Studio, an Online Booking & Reservation System, is a
+                full-stack application written in ReactJS & Suprabase.
               </p>
             </li>
             <li>
-              <strong>Standard Deviation Function</strong>
+              <strong>Start Sign</strong>
               <p className="text-gray-700">
-                Using Py, write a function that outputs the standard deviation
-                between the price of two currencies every 60 seconds, using API
-                lookup methods.
+                Start Sign, an On-Chain Bookeeping & Accounting platform, is a
+                full-stack application written in Ruby & PostgreSQL.
               </p>
             </li>
           </ul>
