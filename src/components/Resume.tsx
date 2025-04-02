@@ -139,7 +139,7 @@ function Resume() {
               <strong>dbmstudio.online</strong>
               <p className="text-gray-700">
                 DBM Studio Online, an Online Booking & Reservation System, is a
-                full-stack application written in ReactJS & Suprabase.
+                full-stack application written in ReactJS & Supabase.
               </p>
             </li>
             <li>
