@@ -129,24 +129,24 @@ function Resume() {
           </a>
           <ul className="list-disc space-y-2 pl-5 text-sm">
             <li>
-              <strong>MiNovina</strong>
+              <strong>minovina.com</strong>
               <p className="text-gray-700">
                 MiNovina, an Online Prayer Chain, is a full-stack application
                 that runs on ReactJS & EdgeDB.
               </p>
             </li>
             <li>
-              <strong>DBM Studio</strong>
+              <strong>dbmstudio.online</strong>
               <p className="text-gray-700">
-                DBM Studio, an Online Booking & Reservation System, is a
+                DBM Studio Online, an Online Booking & Reservation System, is a
                 full-stack application written in ReactJS & Suprabase.
               </p>
             </li>
             <li>
-              <strong>Start Sign</strong>
+              <strong>startsign.online</strong>
               <p className="text-gray-700">
-                Start Sign, an On-Chain Bookeeping & Accounting platform, is a
-                full-stack application written in Ruby & PostgreSQL.
+                Start Sign Online, an On-Chain Bookeeping & Accounting platform,
+                is a full-stack application written in Ruby & PostgreSQL.
               </p>
             </li>
           </ul>
