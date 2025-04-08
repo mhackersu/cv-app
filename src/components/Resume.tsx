@@ -117,7 +117,7 @@ function Resume() {
             </ul>
           </div>
         </section>
-        <section className="mb-8">
+        {/* <section className="mb-8">
           <a
             href="https://www.bfsio.net/projects"
             target="_blank"
@@ -150,7 +150,7 @@ function Resume() {
               </p>
             </li>
           </ul>
-        </section>
+        </section> */}
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Freelance Experience
