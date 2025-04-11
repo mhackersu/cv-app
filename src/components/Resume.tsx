@@ -209,7 +209,7 @@ function Resume() {
             Previous Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">IT Director – Clinical Systems</>
+            <p className="text-lg font-bold">IT Director, Clinical Systems</p>
             <a>
               <a className="text-sm font-bold">Texas Health Resources</a>
               <a> </a>
