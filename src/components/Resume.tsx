@@ -12,28 +12,32 @@ function Resume() {
           </div>
         </div>
         <section className="mb-8">
-          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Professional Skills
+          </h2>
           <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
             <li>
-              Following Agile principles and contributing to the team effort.
+              Attending and participating in weekly team engineering design
+              meetings, and working as a team to ship sprint goals.
             </li>
             <li>
-              Debugging and optimizing existing services, writing new code, and
-              new unit tests.
+              Attending to rotating on-call and debugging and optimizing
+              existing services when responding to incidents.
             </li>
             <li>
-              Setting up containers, debugging existing containers, attending to
-              on-call.
+              Writing code and tests according to feature requests. Creating new
+              containers and new CI; Debugging and optimizing existing
+              containers and existing CI.
             </li>
             <br></br>
             <li>
-              <b className="text-black">Languages:</b> Py, Go, Ruby, JS
+              <b className="text-black">Languages:</b> Go, Ruby, Py
             </li>
             <li>
-              <b className="text-black">Databases:</b> PostgreSQL, NoSQL
+              <b className="text-black">Data Layer:</b> PostgreSQL, MySQL
             </li>
             <li>
-              <b className="text-black">Cloud Services:</b> AWS, GCP, AZ
+              <b className="text-black">Cloud Services:</b> GCP, AWS, AZ
             </li>
           </ul>
         </section>
@@ -42,7 +46,7 @@ function Resume() {
             Professional Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">Sr. Software Engineer</p>
+            <p className="text-lg font-bold">Sr. Platform Engineer (Edge)</p>
             <a>
               <a className="text-sm font-bold">WP Engine</a>
               <a> </a>
@@ -71,7 +75,9 @@ function Resume() {
             </ul>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Sr. Platform Engineer</p>
+            <p className="text-lg font-bold">
+              Sr. Platform Engineer (Middleware)
+            </p>
             <a>
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
@@ -174,7 +180,7 @@ function Resume() {
             </a>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Web Development </p>
+            <p className="text-lg font-bold">Web Development Immersive</p>
             <a>
               <a className="text-sm font-bold">General Assembly</a>
               <a> </a>
