@@ -24,10 +24,11 @@ function Resume() {
               Attending to rotating on-call and debugging and optimizing
               existing services when responding to incidents.
             </li>
+            <li>Writing code and tests according to feature requests.</li>
+            <br></br>
             <li>
-              Writing code and tests according to feature requests. Creating new
-              containers and new CI; Debugging and optimizing existing
-              containers and existing CI.
+              Creating new containers and new CI; Debugging and optimizing
+              existing containers and existing CI.
             </li>
             <br></br>
             <li>
