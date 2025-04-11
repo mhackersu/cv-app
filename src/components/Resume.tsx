@@ -25,7 +25,6 @@ function Resume() {
               existing services when responding to incidents.
             </li>
             <li>Writing code and tests according to feature requests.</li>
-            <br></br>
             <li>
               Creating new containers and new CI; Debugging and optimizing
               existing containers and existing CI.
