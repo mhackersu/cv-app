@@ -166,7 +166,7 @@ function Resume() {
             </a>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Front-End Web Developer</p>
+            <p className="text-lg font-bold">Full-Stack Web Developer</p>
             <a>
               <a className="text-sm font-bold">TxDOT</a>
               <a> </a>
@@ -174,7 +174,7 @@ function Resume() {
             </a>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Full-Stack Web Developer</p>
+            <p className="text-lg font-bold">Web Development </p>
             <a>
               <a className="text-sm font-bold">General Assembly</a>
               <a> </a>
