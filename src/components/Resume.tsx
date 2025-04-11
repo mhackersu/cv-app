@@ -5,7 +5,7 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg">Full-Stack Engineer</p>
+            <p className="text-lg">Platform Engineer</p>
             <p className="text-sm text-gray-600">
               hacker@bfsio.net | 830-313-9450
             </p>
