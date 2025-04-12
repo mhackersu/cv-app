@@ -56,21 +56,18 @@ function Resume() {
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Streamlined classes in multi-tenant domain-routing architecture
-                <i> (e.g. wpeng.in)</i> servicing <i>(n=1x10^6)</i> customer
-                domains.
+                Optimized classes within multi-tenant architecture for
+                domain-routing on <i> (e.g. wpeng.in)</i> servicing{' '}
+                <i>(n=1x10^6)</i> internal, customer domains.
               </li>
               <li>
                 Leveraged Cloudflare Orange Cloud Enterprise SaaS to automate
-                Let&apos;s Encrypt and Google Cloud SSL renewals.
+                Let&apos;s Encrypt and Google Cloud SSL renewals on customer
+                domains.
               </li>
+              <li>Led internal domain routing system rewrite in Go/GRPC.</li>
               <li>
-                Led team for system rewrite for domain routing in Go/GRPC with a
-                Cloudflare SaaS Enterprise O2O Proxy.
-              </li>
-              <li>
-                Enhanced customer onboarding experience by implementing more
-                granular API endpoints for more dynamic UI status updates.
+                Created automations in StackStorm to enhance system resiliancy.
               </li>
             </ul>
           </div>
@@ -87,16 +84,12 @@ function Resume() {
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Led implementation team for CI modernization on mission-critical
-                ACH transactional services processing $7B USD yearly.
+                Led CI modernization effort on mission-critical ACH
+                transactional system servicing 7B ARR.
               </li>
               <li>
-                Created fully-developed adhoc lowers using AZ resources,
-                complete with build, release, and integration test stages.
-              </li>
-              <li>
-                Including unit tests, Created serverless CI services using
-                AZFunctionApp.
+                Created platforms in AZ for development teams, complete with
+                build, release, and integration test stages.
               </li>
             </ul>
           </div>
@@ -112,13 +105,10 @@ function Resume() {
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>Lead TF Enterprise SME on AWS GovCloud.</li>
               <li>
-                Created new TF modules that automated customer domain onboarding
-                steps.
+                Rolled out new TF modules in automated customer domain
+                onboarding processes.
               </li>
-              <li>
-                Migrated IAM configurations into TF to create a more manageable
-                identity and access management experience.
-              </li>
+              <li>Enhanced IAM management via TF configurations.</li>
               <br></br>
             </ul>
           </div>
