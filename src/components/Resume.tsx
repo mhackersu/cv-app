@@ -67,7 +67,7 @@ function Resume() {
               </li>
               <li>Led internal domain routing system rewrite in Go/GRPC.</li>
               <li>
-                Created automations in StackStorm to enhance system resiliancy.
+                Created automation in StackStorm to enhance system resiliency.
               </li>
             </ul>
           </div>
