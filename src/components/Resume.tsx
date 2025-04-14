@@ -5,31 +5,59 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg">Platform Engineer</p>
+            <p className="text-lg">Platform Engineer CV</p>
             <p className="text-sm text-gray-600">
               hacker@bfsio.net | 830-313-9450
             </p>
           </div>
         </div>
         <section className="mb-8">
-          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
-            Professional Skills
-          </h2>
-          <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
-            <li>
-              Attending and participating in weekly team engineering design
-              meetings, and working as a team to ship sprint goals.
-            </li>
-            <li>
-              Attending to rotating on-call and debugging and optimizing
-              existing services when responding to incidents.
-            </li>
-            <li>Writing code and tests according to feature requests.</li>
-            <li>
-              Creating new containers and new CI; Debugging and optimizing
-              existing containers and existing CI.
-            </li>
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
+          <div className="text-sm text-gray-600">
+            <p>
+              Strategic and <b>results-driven</b> Sr. Platform Engineer with 7+
+              years of experience architecting, delivering, and
+              <b> scaling infrastructure</b> as software for high-availability,
+              high-velocity organizations across web hosting, finance, and
+              government sectors. Adept at designing <b>multi-tenant </b>
+              Kubernetes platforms, implementing modern CI/CD pipelines, and
+              delivering ephemeral, production-like lowers that empower
+              developers to ship with speed, confidence, and resilience.
+            </p>
             <br></br>
+            <p>
+              <b>Proven leadership</b> in modernizing critical systems through
+              automation-first initiatives, <b>reducing operational toil</b>,
+              and <b>aligning platform capabilities</b> with business goals.
+              Deep expertise in cloud-native ecosystems (AWS, GCP, Azure),
+              container orchestration, service meshes, and secure certificate
+              management at scale. Skilled at balancing the competing demands of
+              development velocity, platform stability, and SLA/SLO compliance —
+              maintaining 99.999% uptime for production systems while enabling
+              rapid innovation through streamlined developer workflows.
+              Extensive experience driving platform initiatives across different
+              organizational cultures, from the high-speed pragmatism of web
+              hosting to the compliance-driven rigor of finance and the
+              procedural complexity of government.
+            </p>
+            <br></br>
+            <p>
+              Understands how to build cross-functional alignment, and advocate
+              for platform investment by demonstrating clear ROI through
+              operational metrics and developer satisfaction. Committed to
+              treating platform engineering as <b>pure software engineering </b>
+              — prioritizing testing, modular design, observability, and
+              continuous improvement. Believes that a
+              <b> world-class platform </b>
+              is not just infrastructure, but a product that enables teams to
+              move faster, safer, and smarter. Passionate about building
+              <b> resilient, developer-centric platforms</b> that turn
+              infrastructure from a bottleneck into a competitive advantage.
+            </p>
+          </div>
+          <br></br>
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
+          <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
             <li>
               <b className="text-black">Languages:</b> Go, Ruby, Py
             </li>
