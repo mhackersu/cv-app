@@ -13,7 +13,7 @@ function Resume() {
         </div>
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
-          <div className="text-sm text-gray-600">
+          {/* <div className="text-sm text-gray-600">
             <p>
               Strategic and <b>results-driven</b> Sr. Platform Engineer with 7+
               years of experience architecting, delivering, and
@@ -54,7 +54,7 @@ function Resume() {
               <b> resilient, developer-centric platforms</b> that turn
               infrastructure from a bottleneck into a competitive advantage.
             </p>
-          </div>
+          </div> */}
           <br></br>
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
           <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
