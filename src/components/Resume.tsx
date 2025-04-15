@@ -12,7 +12,7 @@ function Resume() {
           </div>
         </div>
         <section className="mb-8">
-          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
+          {/* <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2> */}
           {/* <div className="text-sm text-gray-600">
             <p>
               Strategic and <b>results-driven</b> Sr. Platform Engineer with 7+
