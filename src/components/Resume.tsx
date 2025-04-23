@@ -94,9 +94,6 @@ function Resume() {
                 domains.
               </li>
               <li>Led internal domain routing system rewrite in Go/GRPC.</li>
-              <li>
-                Created automation in StackStorm to enhance system resiliency.
-              </li>
             </ul>
           </div>
           <div className="mb-6">
