@@ -84,9 +84,10 @@ function Resume() {
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Optimized classes within multi-tenant architecture for
-                domain-routing on <i> (e.g. wpeng.in)</i> servicing{' '}
-                <i>(n=1x10^6)</i> internal, customer domains.
+                Creating architectural modifications within multi-tenant
+                application for domain-based IP routing for{' '}
+                <i> (e.g. wpengine.com, wpeng.in)</i> which services{' '}
+                <i>(n=1x10^6)</i> internal, customer serverss.
               </li>
               <li>
                 Leveraged Cloudflare Orange Cloud Enterprise SaaS to automate
