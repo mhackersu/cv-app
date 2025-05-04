@@ -74,9 +74,7 @@ function Resume() {
             Professional Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">
-              Sr. Software Engineer (Edge Platform)
-            </p>
+            <p className="text-lg font-bold">Sr. Platform Engineer</p>
             <a>
               <a className="text-sm font-bold">WP Engine</a>
               <a> </a>
@@ -105,7 +103,7 @@ function Resume() {
             </ul>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Staff DevOps Engineer (Ops)</p>
+            <p className="text-lg font-bold">Staff DevOps Engineer</p>
             <a>
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
