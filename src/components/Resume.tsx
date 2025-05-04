@@ -108,7 +108,7 @@ function Resume() {
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
               <a className="text-sm text-gray-600">
-                2019-2022 | Dallas, TX (Remote)
+                2019-2022 | Madison, WI (Remote)
               </a>
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
