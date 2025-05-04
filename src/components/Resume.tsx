@@ -74,7 +74,9 @@ function Resume() {
             Professional Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">Sr. Platform Engineer (Edge)</p>
+            <p className="text-lg font-bold">
+              Sr. Software Engineer (Edge Platform)
+            </p>
             <a>
               <a className="text-sm font-bold">WP Engine</a>
               <a> </a>
@@ -90,16 +92,21 @@ function Resume() {
                 <i>(n=1x10^6)</i> internal, customer serverss.
               </li>
               <li>
-                Leveraged Cloudflare Orange Cloud Enterprise SaaS to automate
-                Let&apos;s Encrypt and Google Cloud SSL renewals on customer
-                domains.
+                Contribuiting to Cloudflare Orange Cloud Enterprise SaaS
+                migration from Python automation for Let&apos;s Encrypt and
+                Google Cloud SSL renewal subroutines on customer domains.
               </li>
-              <li>Led internal domain routing system rewrite in Go/GRPC.</li>
+              <li>
+                Lead engineer for domain routing system rewrite effort in
+                Go/GRPC. Migrating secrets from Hashicorp Valut into Google
+                Secrets. Coordinating with SecOps; Writing tests for secret
+                migration changes with test output shipped to CI logs.
+              </li>
             </ul>
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">
-              Sr. Platform Engineer (Middleware)
+              Staff Sr. DevOps Engineer (Middleware Team)
             </p>
             <a>
               <a className="text-sm font-bold">Fairway Mortgage</a>
@@ -110,12 +117,13 @@ function Resume() {
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Led CI modernization effort on mission-critical ACH
-                transactional system servicing 7B ARR.
+                Lead engineer for mission-critical JRE/Linux/CI modernization
+                effort on ACH/Swift transactional system servicing 7B ARR.
               </li>
               <li>
-                Created platforms in AZ for development teams, complete with
-                build, release, and integration test stages.
+                Organizational IDP Champion; Lead team to ship DevOps workflows
+                complete IaS golden templates to 20+ teams development across
+                organization.
               </li>
             </ul>
           </div>
