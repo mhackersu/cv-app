@@ -87,7 +87,7 @@ function Resume() {
                 Creating architectural modifications within multi-tenant
                 application for domain-based IP routing for{' '}
                 <i> (e.g. wpengine.com, wpeng.in)</i> which services{' '}
-                <i>(n=1x10^6)</i> internal, customer serverss.
+                <i>(n=1x10^6)</i> internal, customer servers.
               </li>
               <li>
                 Contribuiting to Cloudflare Orange Cloud Enterprise SaaS
