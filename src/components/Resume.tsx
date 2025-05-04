@@ -112,7 +112,7 @@ function Resume() {
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
               <a className="text-sm text-gray-600">
-                2020-2022 | Carrollton, TX (Remote)
+                2019-2022 | Carrollton, TX (Remote)
               </a>
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
@@ -133,7 +133,7 @@ function Resume() {
               <a className="text-sm font-bold">Tyler Technologies</a>
               <a> </a>
               <a className="text-sm text-gray-600">
-                2018-2020 | Yarmouth, ME (Remote)
+                2018 | Yarmouth, ME (Remote)
               </a>
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
