@@ -106,7 +106,7 @@ function Resume() {
           </div>
           <div className="mb-6">
             <p className="text-lg font-bold">
-              Staff Sr. DevOps Engineer (Middleware Team)
+              Staff DevOps Engineer (Ops Team)
             </p>
             <a>
               <a className="text-sm font-bold">Fairway Mortgage</a>
