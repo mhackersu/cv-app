@@ -52,6 +52,14 @@ function Resume() {
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
+                Closed major security exploit targeting internal domain routing.
+                Tech lead for nine-month remediation effort in Ruby. Closed
+                exploit with re-worked regex. Extensive tested changes, and led
+                multiple design discussions and ADR reviews seeking approval and
+                sponsorship for remediation release to top level engineering
+                approval for the 330M ARR customer impacting change.
+              </li>
+              <li>
                 Streamlined classes in multi-tenant domain-routing architecture
                 <i> (e.g. wpeng.in)</i> servicing <i>(n=1x10^6)</i> customer
                 domains.
