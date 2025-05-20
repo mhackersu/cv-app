@@ -5,35 +5,67 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg">Full-Stack Engineer</p>
+            <p className="text-lg">Platform Engineer CV</p>
             <p className="text-sm text-gray-600">
               hacker@bfsio.net | 830-313-9450
             </p>
           </div>
         </div>
         <section className="mb-8">
+          {/* <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2> */}
+          {/* <div className="text-sm text-gray-600">
+            <p>
+              Strategic and <b>results-driven</b> Sr. Platform Engineer with 7+
+              years of experience architecting, delivering, and
+              <b> scaling infrastructure</b> as software for high-availability,
+              high-velocity organizations across web hosting, finance, and
+              government sectors. Adept at designing <b>multi-tenant </b>
+              Kubernetes platforms, implementing modern CI/CD pipelines, and
+              delivering ephemeral, production-like lowers that empower
+              developers to ship with speed, confidence, and resilience.
+            </p>
+            <br></br>
+            <p>
+              <b>Proven leadership</b> in modernizing critical systems through
+              automation-first initiatives, <b>reducing operational toil</b>,
+              and <b>aligning platform capabilities</b> with business goals.
+              Deep expertise in cloud-native ecosystems (AWS, GCP, Azure),
+              container orchestration, service meshes, and secure certificate
+              management at scale. Skilled at balancing the competing demands of
+              development velocity, platform stability, and SLA/SLO compliance —
+              maintaining 99.999% uptime for production systems while enabling
+              rapid innovation through streamlined developer workflows.
+              Extensive experience driving platform initiatives across different
+              organizational cultures, from the high-speed pragmatism of web
+              hosting to the compliance-driven rigor of finance and the
+              procedural complexity of government.
+            </p>
+            <br></br>
+            <p>
+              Understands how to build cross-functional alignment, and advocate
+              for platform investment by demonstrating clear ROI through
+              operational metrics and developer satisfaction. Committed to
+              treating platform engineering as <b>pure software engineering </b>
+              — prioritizing testing, modular design, observability, and
+              continuous improvement. Believes that a
+              <b> world-class platform </b>
+              is not just infrastructure, but a product that enables teams to
+              move faster, safer, and smarter. Passionate about building
+              <b> resilient, developer-centric platforms</b> that turn
+              infrastructure from a bottleneck into a competitive advantage.
+            </p>
+          </div> */}
+          <br></br>
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
           <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
             <li>
-              Following Agile principles and contributing to the team effort.
+              <b className="text-black">Languages:</b> Go, Ruby, Py
             </li>
             <li>
-              Debugging and optimizing existing services, writing new code, and
-              new unit tests.
+              <b className="text-black">Data Layer:</b> PostgreSQL, MySQL
             </li>
             <li>
-              Setting up containers, debugging existing containers, attending to
-              on-call.
-            </li>
-            <br></br>
-            <li>
-              <b className="text-black">Languages:</b> Py, Go, Ruby, JS
-            </li>
-            <li>
-              <b className="text-black">Databases:</b> PostgreSQL, NoSQL
-            </li>
-            <li>
-              <b className="text-black">Cloud Services:</b> AWS, GCP, AZ
+              <b className="text-black">Cloud Services:</b> GCP, AWS, AZ
             </li>
           </ul>
         </section>
@@ -42,7 +74,7 @@ function Resume() {
             Professional Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">Sr. Software Engineer</p>
+            <p className="text-lg font-bold">Sr. Platform Engineer</p>
             <a>
               <a className="text-sm font-bold">WP Engine</a>
               <a> </a>
@@ -52,6 +84,7 @@ function Resume() {
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
+<<<<<<< HEAD
                 Closed major security exploit targeting internal domain routing.
                 Tech lead for nine-month remediation effort in Ruby. Closed
                 exploit with re-worked regex. Extensive tested changes, and led
@@ -63,42 +96,44 @@ function Resume() {
                 Streamlined classes in multi-tenant domain-routing architecture
                 <i> (e.g. wpeng.in)</i> servicing <i>(n=1x10^6)</i> customer
                 domains.
+=======
+                Creating architectural modifications within multi-tenant
+                application for domain-based IP routing for{' '}
+                <i> (e.g. wpengine.com, wpeng.in)</i> which services{' '}
+                <i>(n=1x10^6)</i> internal, customer servers.
+>>>>>>> refs/remotes/origin/master
               </li>
               <li>
-                Leveraged Cloudflare Orange Cloud Enterprise SaaS to automate
-                Let&apos;s Encrypt and Google Cloud SSL renewals.
+                Contribuiting to Cloudflare Orange Cloud Enterprise SaaS
+                migration from Python automation for Let&apos;s Encrypt and
+                Google Cloud SSL renewal subroutines on customer domains.
               </li>
               <li>
-                Led team for system rewrite for domain routing in Go/GRPC with a
-                Cloudflare SaaS Enterprise O2O Proxy.
-              </li>
-              <li>
-                Enhanced customer onboarding experience by implementing more
-                granular API endpoints for more dynamic UI status updates.
+                Lead engineer for domain routing system rewrite effort in
+                Go/GRPC. Migrating secrets from Hashicorp Valut into Google
+                Secrets. Coordinating with SecOps; Writing tests for secret
+                migration changes with test output shipped to CI logs.
               </li>
             </ul>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Sr. Platform Engineer</p>
+            <p className="text-lg font-bold">Staff DevOps Engineer</p>
             <a>
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
               <a className="text-sm text-gray-600">
-                2020-2022 | Carrollton, TX (Remote)
+                2019-2022 | Madison, WI (Remote)
               </a>
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Led implementation team for CI modernization on mission-critical
-                ACH transactional services processing $7B USD yearly.
+                Lead engineer for mission-critical JRE/Linux/CI modernization
+                effort on ACH/Swift transactional system servicing 7B ARR.
               </li>
               <li>
-                Created fully-developed adhoc lowers using AZ resources,
-                complete with build, release, and integration test stages.
-              </li>
-              <li>
-                Including unit tests, Created serverless CI services using
-                AZFunctionApp.
+                Organizational IDP Champion; Lead team to ship DevOps workflows
+                complete IaS golden templates to 20+ teams development across
+                organization.
               </li>
             </ul>
           </div>
@@ -108,24 +143,21 @@ function Resume() {
               <a className="text-sm font-bold">Tyler Technologies</a>
               <a> </a>
               <a className="text-sm text-gray-600">
-                2018-2020 | Yarmouth, ME (Remote)
+                2018 | Yarmouth, ME (Remote)
               </a>
             </a>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>Lead TF Enterprise SME on AWS GovCloud.</li>
               <li>
-                Created new TF modules that automated customer domain onboarding
-                steps.
+                Rolled out new TF modules in automated customer domain
+                onboarding processes.
               </li>
-              <li>
-                Migrated IAM configurations into TF to create a more manageable
-                identity and access management experience.
-              </li>
+              <li>Enhanced IAM management via TF configurations.</li>
               <br></br>
             </ul>
           </div>
         </section>
-        <section className="mb-8">
+        {/* <section className="mb-8">
           <a
             href="https://www.bfsio.net/projects"
             target="_blank"
@@ -158,7 +190,7 @@ function Resume() {
               </p>
             </li>
           </ul>
-        </section>
+        </section> */}
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Freelance Experience
@@ -174,7 +206,7 @@ function Resume() {
             </a>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Front-End Web Developer</p>
+            <p className="text-lg font-bold">Full-Stack Web Developer</p>
             <a>
               <a className="text-sm font-bold">TxDOT</a>
               <a> </a>
@@ -182,7 +214,7 @@ function Resume() {
             </a>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Full-Stack Web Developer</p>
+            <p className="text-lg font-bold">Web Development Immersive</p>
             <a>
               <a className="text-sm font-bold">General Assembly</a>
               <a> </a>
@@ -217,7 +249,7 @@ function Resume() {
             Previous Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">IT Director, Finance</p>
+            <p className="text-lg font-bold">IT Director, Clinical Systems</p>
             <a>
               <a className="text-sm font-bold">Texas Health Resources</a>
               <a> </a>
