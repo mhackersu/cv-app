@@ -74,14 +74,15 @@ function Resume() {
             Professional Experience
           </h2>
           <div className="mb-6">
-            <p className="text-lg font-bold">Sr. Platform Engineer</p>
-            <a>
+            <a className="text-lg font-bold">Sr. Platform Engineer</a>
+            <a className="text-sm text-black"> [Ruby, Go]</a>
+            <p>
               <a className="text-sm font-bold">WP Engine</a>
               <a> </a>
               <a className="text-sm text-gray-600">
                 2022-2024 | Austin, TX (Remote)
               </a>
-            </a>
+            </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
                 Closed major security exploit targeting internal domain routing.
@@ -113,14 +114,34 @@ function Resume() {
             </ul>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Staff DevOps Engineer</p>
-            <a>
+            <a className="text-lg font-bold">Sr SRE</a>
+            <a className="text-sm text-black"> [Go]</a>
+            <p>
+              <a className="text-sm font-bold">Censys</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">
+                2022 | Ann Arbor, MI (Remote)
+              </a>
+            </p>
+            <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
+              <li>
+                Championed CI migration agency with dev teams which upgraded 45
+                minute Java CI merge trains in GitLab to Go gRPC services with
+                GCP CloudBuild with 3 minute builds and ephermerial environments
+                for CI testing on large data set.
+              </li>
+            </ul>
+          </div>
+          <div className="mb-6">
+            <a className="text-lg font-bold">Staff DevOps Engineer</a>
+            <a className="text-sm text-black"> [C#, Java]</a>
+            <p>
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
               <a className="text-sm text-gray-600">
                 2019-2022 | Madison, WI (Remote)
               </a>
-            </a>
+            </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
                 Lead engineer for mission-critical JRE/Linux/CI modernization
@@ -134,14 +155,15 @@ function Resume() {
             </ul>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Sr. DevOps Engineer</p>
-            <a>
+            <a className="text-lg font-bold">Sr. DevOps Engineer</a>
+            <a className="text-sm text-black"> [C#]</a>
+            <p>
               <a className="text-sm font-bold">Tyler Technologies</a>
               <a> </a>
               <a className="text-sm text-gray-600">
                 2018 | Yarmouth, ME (Remote)
               </a>
-            </a>
+            </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>Lead TF Enterprise SME on AWS GovCloud.</li>
               <li>
