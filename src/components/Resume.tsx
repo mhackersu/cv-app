@@ -5,7 +5,7 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg">Sr. IaC Engineer CV</p>
+            <p className="text-lg">Sr. IaS Engineer CV</p>
             <p className="text-sm text-gray-600">
               hacker@bfsio.net | 830-313-9450
             </p>
@@ -74,7 +74,7 @@ function Resume() {
             Professional Experience
           </h2>
           <div className="mb-6">
-            <a className="text-lg font-bold">Sr. IaC Engineer</a>
+            <a className="text-lg font-bold">Sr. IaS Engineer</a>
             <a className="text-sm text-black"> [Ruby, Go]</a>
             <p>
               <a className="text-sm font-bold">WP Engine</a>
