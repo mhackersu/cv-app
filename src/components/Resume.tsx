@@ -65,7 +65,7 @@ function Resume() {
               <b className="text-black">Data:</b> PostgreSQL, MySQL
             </li>
             <li>
-              <b className="text-black">Cloud:</b> GKE, CloudFlare
+              <b className="text-black">Cloud:</b> IAM, GKE, CloudFlare
             </li>
           </ul>
         </section>
