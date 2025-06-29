@@ -62,10 +62,10 @@ function Resume() {
               <b className="text-black">Languages:</b> Go, Ruby, Py
             </li>
             <li>
-              <b className="text-black">Data Layer:</b> PostgreSQL, MySQL
+              <b className="text-black">Data:</b> PostgreSQL, MySQL
             </li>
             <li>
-              <b className="text-black">Cloud Services:</b> GCP, AWS, AZ
+              <b className="text-black">Cloud:</b> GKE, CloudFlare
             </li>
           </ul>
         </section>
