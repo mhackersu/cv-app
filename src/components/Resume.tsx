@@ -85,6 +85,11 @@ function Resume() {
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
+                Responded to customer escalations related to Chinese network
+                access restrictions, coordinating real-time IP pool changes
+                across global Kubernetes infrastructure (GKE).
+              </li>
+              <li>
                 Closed major security exploit targeting internal domain routing.
                 Tech lead for nine-month remediation effort in Ruby. Closed
                 exploit with re-worked regex. Extensive tested changes, and led
