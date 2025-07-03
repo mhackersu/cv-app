@@ -185,7 +185,7 @@ function Resume() {
               <li>
                 Created & owned Latin America Geolocation API written in NodeJS
                 with TS and the Knex library. Communicate with various
-                governmental agencies in South American in various differient
+                governmental agencies in South America in various differient
                 languages. Gather various Geolocation data in various shapes,
                 transform data in Python dataframes, and import various
                 application configurations as per feature requests.
