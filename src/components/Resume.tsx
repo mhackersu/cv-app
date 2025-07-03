@@ -5,7 +5,7 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg">IaS Engineer CV</p>
+            <p className="text-lg">Sr. Software Engineer</p>
             <p className="text-sm text-gray-600">
               hacker@bfsio.net | 830-313-9450
             </p>
@@ -68,13 +68,14 @@ function Resume() {
               <b className="text-black">Cloud:</b> IAM, GKE, CloudFlare
             </li>
           </ul>
+          <br></br>
         </section>
         <section>
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Professional Experience
           </h2>
           <div className="mb-6">
-            <a className="text-lg font-bold">IaS Engineer</a>
+            <a className="text-lg font-bold">Sr. Software Engineer</a>
             <a className="text-sm text-black"> [Ruby, Go]</a>
             <p>
               <a className="text-sm font-bold">WP Engine</a>
@@ -112,33 +113,12 @@ function Resume() {
               </li>
               <li>
                 Lead engineer for domain routing system rewrite effort in
-                Go/GRPC. Migrating secrets from Hashicorp Valut into Google
-                Secrets. Coordinating with SecOps; Writing tests for secret
-                migration changes with test output shipped to CI logs.
+                Go/GRPC.
               </li>
             </ul>
           </div>
           <div className="mb-6">
-            <a className="text-lg font-bold">Sr SRE</a>
-            <a className="text-sm text-black"> [Go]</a>
-            <p>
-              <a className="text-sm font-bold">Censys</a>
-              <a> </a>
-              <a className="text-sm text-gray-600">
-                2022 | Ann Arbor, MI (Remote)
-              </a>
-            </p>
-            <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
-              <li>
-                Championed CI migration agency with dev teams which upgraded 45
-                minute Java CI merge trains in GitLab to Go gRPC services with
-                GCP CloudBuild with 3 minute builds and ephermerial environments
-                for CI testing on large data set.
-              </li>
-            </ul>
-          </div>
-          <div className="mb-6">
-            <a className="text-lg font-bold">Staff DevOps Engineer</a>
+            <a className="text-lg font-bold">Sr. Software Engineer</a>
             <a className="text-sm text-black"> [C#, Java]</a>
             <p>
               <a className="text-sm font-bold">Fairway Mortgage</a>
@@ -153,15 +133,15 @@ function Resume() {
                 effort on ACH/Swift transactional system servicing 7B ARR.
               </li>
               <li>
-                Organizational IDP Champion; Lead team to ship DevOps workflows
-                complete IaS golden templates to 20+ teams development across
-                organization.
+                Organizational IDP Champion; Lead teams to ship DevOps
+                initiative via workflows with complete IaS golden templates to
+                20+ teams development across organization.
               </li>
             </ul>
           </div>
           <div className="mb-6">
-            <a className="text-lg font-bold">Sr. DevOps Engineer</a>
-            <a className="text-sm text-black"> [C#]</a>
+            <a className="text-lg font-bold">Sr. Software Engineer</a>
+            <a className="text-sm text-black"> [Python]</a>
             <p>
               <a className="text-sm font-bold">Tyler Technologies</a>
               <a> </a>
@@ -170,15 +150,54 @@ function Resume() {
               </a>
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
-              <li>Lead TF Enterprise SME on AWS GovCloud.</li>
               <li>
-                Rolled out new TF modules in automated customer domain
-                onboarding processes.
+                Creating Python automations with the F5 SDK to import customer
+                configurations mapped from previously established configuration
+                management components in the pipeline such as Ansible, Puppet,
+                and Terraform into batch changes for networking configurations.
               </li>
-              <li>Enhanced IAM management via TF configurations.</li>
-              <br></br>
+              <li>
+                TF Enterprise SME on AWS GovCloud. Created and distribuited
+                Terraform modules to various Domestic support teams. This lead
+                to optimization of the Ops requests through standardization of
+                the module templates. which resulted in major rennovations and
+                optimizations to the customer domain onboarding processes.
+              </li>
+              <li>
+                Codified IAM configurations with TF. This simple step
+                expontially increased resiliancy and protections against simple
+                human error when creating the release pipeline for the new
+                customer configurations going into production.
+              </li>
             </ul>
           </div>
+          <div className="mb-6">
+            <a className="text-lg font-bold">Sr. Software Engineer</a>
+            <a className="text-sm text-black"> [NodeJS]</a>
+            <p>
+              <a className="text-sm font-bold">Pizza Hut Digital Ventures</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">
+                2017 | London, UK (Remote)
+              </a>
+            </p>
+            <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
+              <li>
+                Created & owned Latin America Geolocation API written in NodeJS
+                with TS and the Knex library. Communicate with various
+                governmental agencies in South American in various differient
+                languages. Gather various Geolocation data in various shapes,
+                transform data in Python dataframes, and import various
+                application configurations as per feature requests.
+              </li>
+              <li>
+                Assist with payment integration processor; Host weekly review
+                meetings and coordinate communications such as planned
+                maintainance windows.
+              </li>
+            </ul>
+          </div>
+          <br></br>
         </section>
         {/* <section className="mb-8">
           <a
@@ -218,8 +237,8 @@ function Resume() {
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Freelance Experience
           </h2>
-          <div className="mb-6">
-            <p className="text-lg font-bold">DevOps Engineer</p>
+          {/* <div className="mb-6">
+            <p className="text-lg font-bold">Sr. Software Engineer</p>
             <a>
               <a className="text-sm font-bold">Pizza Hut Digital Ventures</a>
               <a> </a>
@@ -227,7 +246,7 @@ function Resume() {
                 2017 | London, UK (Remote)
               </a>
             </a>
-          </div>
+          </div> */}
           <div className="mb-6">
             <p className="text-lg font-bold">Full-Stack Web Developer</p>
             <a>
@@ -280,7 +299,7 @@ function Resume() {
             </a>
           </div>
           <div className="mb-6">
-            <p className="text-lg font-bold">Support, Tier III</p>
+            <p className="text-lg font-bold">Network Support</p>
             <a>
               <a className="text-sm font-bold">Waymark Internet Services</a>
               <a> </a>
