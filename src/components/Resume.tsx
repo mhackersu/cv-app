@@ -25,7 +25,7 @@ function Resume() {
             </li>
           </ul>
         </section>
-        <section>
+        <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Professional Experience
           </h2>
@@ -129,17 +129,17 @@ function Resume() {
                 and Terraform into batch changes for networking configurations.
               </li>
               <li>
-                TF Enterprise SME on AWS GovCloud. Created and distribuited
+                TF Enterprise SME on AWS GovCloud. Created and distributed
                 Terraform modules to various Domestic support teams. This lead
                 to optimization of the Ops requests through standardization of
-                the module templates. which resulted in major rennovations and
+                the module templates, which resulted in major renovations and
                 optimizations to the customer domain onboarding processes.
               </li>
               <li>
                 Codified IAM configurations with TF. This simple step
-                expontially increased resiliancy and protections against simple
-                human error when creating the release pipeline for the new
-                customer configurations going into production.
+                exponentially increased resiliency and protections against
+                simple human error when creating the release pipeline for the
+                new customer configurations going into production.
               </li>
             </ul>
           </div>
@@ -157,15 +157,15 @@ function Resume() {
               <li>
                 Created & owned Latin America Geolocation API written in NodeJS
                 with TS and the Knex library. Communicate with various
-                governmental agencies in South America in various differient
-                languages. Gather various Geolocation data in various shapes,
-                transform data in Python dataframes, and import various
-                application configurations as per feature requests.
+                governmental agencies in South America in Spanish. Gather
+                various Geolocation data in various shapes, transform data in
+                Python data frames, and import various application
+                configurations as per feature requests.
               </li>
               <li>
                 Assist with payment integration processor; Host weekly review
                 meetings and coordinate communications such as planned
-                maintainance windows.
+                maintenance windows.
               </li>
             </ul>
           </div>
@@ -191,7 +191,7 @@ function Resume() {
             </a>
           </div>
         </section>
-        <section>
+        <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Education
           </h2>
