@@ -66,11 +66,6 @@ function Resume() {
                 Google Secrets, including full CI-integrated validations.
               </li>
               <li>
-                Created compliance-aligned TLS automations in Go via Cloudflare
-                SaaS migration, including Let's Encrypt and Google SSL
-                workflows.
-              </li>
-              <li>
                 Responded to customer escalations related to Chinese network
                 access restrictions, coordinating real-time IP pool changes
                 across global Kubernetes infrastructure (GKE).
