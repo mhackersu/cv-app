@@ -15,13 +15,10 @@ function Resume() {
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
           <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
             <li>
-              <b className="text-black">Languages:</b> Go, Ruby, Py
+              <b className="text-black">Languages:</b> Ruby, Go, Java, C#
             </li>
             <li>
-              <b className="text-black">Data:</b> PostgreSQL, MySQL
-            </li>
-            <li>
-              <b className="text-black">Cloud:</b> IAM, GKE, CloudFlare
+              <b className="text-black">Datas:</b> PostgreSQL, RDS, CloudSQL
             </li>
           </ul>
         </section>
@@ -41,11 +38,11 @@ function Resume() {
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Architected domain-based routing improvements for a multi-tenant
-                Ruby application serving 1M+ customer domains (e.g.,
-                wpengine.com, wpeng.in), supporting internal and customer
-                workloads on GKE. Introduced architectural changes to streamline
-                class loading and domain resolution at scale.
+                Architected improvements for a multi-tenant Ruby application
+                serving 1M+ customer domains (e.g., wpengine.com, wpeng.in),
+                supporting internal and customer workloads on GKE. Introduced
+                architectural changes to streamline class loading and domain
+                resolution at scale.
               </li>
               <li>
                 Led remediation of critical domain routing exploit in a
@@ -79,10 +76,6 @@ function Resume() {
                 across global Kubernetes infrastructure (GKE).
               </li>
               <li>
-                Provided real-time infrastructure support for regulated IP
-                access zones including Chinese market compliance.
-              </li>
-              <li>
                 Contribuiting to Cloudflare Orange Cloud Enterprise SaaS via Go
                 migration from Python automation for Let's Encrypt and Google
                 Cloud SSL renewal subroutines on customer domains.
@@ -91,7 +84,7 @@ function Resume() {
           </div>
           <div className="mb-6">
             <a className="text-lg font-bold">Sr. Software Engineer</a>
-            <a className="text-sm text-black"> [C#, Java]</a>
+            <a className="text-sm text-black"> [Java, C#]</a>
             <p>
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
@@ -101,19 +94,31 @@ function Resume() {
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Lead engineer for mission-critical JRE/Linux/CI modernization
+                Lead engineer for mission-critical JRE/Linux modernization
                 effort on ACH/Swift transactional system servicing 7B ARR.
               </li>
               <li>
-                Organizational IDP Champion; Lead teams to ship DevOps
-                initiative via workflows with complete IaS golden templates to
-                20+ teams development across organization.
+                Worked as an embedded engineer on middleware team that serviced
+                all dev teams for debugging in production. Assisted with
+                debugging, stack trace and log capture.
+              </li>
+              <li>
+                Organizational IDP Champion; Created DevOps initiative via CI
+                workflows with complete IaS golden templates to 20+ teams
+                development across organization.
+              </li>
+              <li>
+                Created C#/.Net templates for function apps with ephmerial state
+                accessable to all dev teams. Worked with Ops to not require
+                sponsorship for usage on epherial environments. Set timeouts to
+                wrangle cloud spend. This made it possible for the company to
+                begin to lead with a culture of experimentation and learning.
               </li>
             </ul>
           </div>
           <div className="mb-6">
             <a className="text-lg font-bold">Sr. Software Engineer</a>
-            <a className="text-sm text-black"> [Python]</a>
+            <a className="text-sm text-black"> [C#, Python]</a>
             <p>
               <a className="text-sm font-bold">Tyler Technologies</a>
               <a> </a>
@@ -123,10 +128,17 @@ function Resume() {
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Creating Python automations with the F5 SDK to import customer
+                Working feature requests that involved API changes in C# and
+                front-end changes in ReactJS for an Intranet PaaS which served
+                the internal customer support teams across various domestic
+                locations.
+              </li>
+              <li>
+                Creating Python automations with F5 SDK to import customer
                 configurations mapped from previously established configuration
                 management components in the pipeline such as Ansible, Puppet,
-                and Terraform into batch changes for networking configurations.
+                and Terraform into batch changes for networking configurations
+                from the customer configuration changes in the PaaS data stream.
               </li>
               <li>
                 TF Enterprise SME on AWS GovCloud. Created and distributed
@@ -135,17 +147,11 @@ function Resume() {
                 the module templates, which resulted in major renovations and
                 optimizations to the customer domain onboarding processes.
               </li>
-              <li>
-                Codified IAM configurations with TF. This simple step
-                exponentially increased resiliency and protections against
-                simple human error when creating the release pipeline for the
-                new customer configurations going into production.
-              </li>
             </ul>
           </div>
           <div className="mb-6">
             <a className="text-lg font-bold">Sr. Software Engineer</a>
-            <a className="text-sm text-black"> [NodeJS]</a>
+            <a className="text-sm text-black"> [NodeJS, PHP]</a>
             <p>
               <a className="text-sm font-bold">Pizza Hut Digital Ventures</a>
               <a> </a>
@@ -163,9 +169,11 @@ function Resume() {
                 configurations as per feature requests.
               </li>
               <li>
-                Assist with payment integration processor; Host weekly review
-                meetings and coordinate communications such as planned
-                maintenance windows.
+                Assist with payment integration processor written in PHP with
+                Vietnam team; Assist and mentor junior developers with loading
+                configurations into PHP connecting to RDS production instances.
+                Host weekly review meetings and coordinate communications such
+                as planned maintenance windows. Following the sun.
               </li>
             </ul>
           </div>
