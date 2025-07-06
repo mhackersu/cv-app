@@ -28,7 +28,7 @@ function Resume() {
           </h2>
           <div className="mb-6">
             <a className="text-lg font-bold">Sr. Software Engineer</a>
-            <a className="text-sm text-black"> [Ruby, Go]</a>
+            <a className="text-sm text-black"> [GKE, Go, Ruby, Py]</a>
             <p>
               <a className="text-sm font-bold">WP Engine</a>
               <a> </a>
@@ -79,7 +79,7 @@ function Resume() {
           </div>
           <div className="mb-6">
             <a className="text-lg font-bold">Sr. Software Engineer</a>
-            <a className="text-sm text-black"> [Java, C#]</a>
+            <a className="text-sm text-black"> [AZ, Java, C#]</a>
             <p>
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
@@ -113,7 +113,7 @@ function Resume() {
           </div>
           <div className="mb-6">
             <a className="text-lg font-bold">Sr. Software Engineer</a>
-            <a className="text-sm text-black"> [C#, Python]</a>
+            <a className="text-sm text-black"> [AWS, Py, C#]</a>
             <p>
               <a className="text-sm font-bold">Tyler Technologies</a>
               <a> </a>
@@ -146,7 +146,7 @@ function Resume() {
           </div>
           <div className="mb-6">
             <a className="text-lg font-bold">Sr. Software Engineer</a>
-            <a className="text-sm text-black"> [NodeJS, PHP]</a>
+            <a className="text-sm text-black"> [AWS, NodeJS, PHP]</a>
             <p>
               <a className="text-sm font-bold">Pizza Hut Digital Ventures</a>
               <a> </a>
