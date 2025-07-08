@@ -12,15 +12,18 @@ function Resume() {
           </div>
         </div>
         <section className="mb-8">
-          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Skills</h2>
-          <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
+          <div>
             <li>
-              <b className="text-black">Languages:</b> Ruby, Go, Java, C#
+              Designing and Creating Software Architecture for World-Class
+              Engineering Firms
             </li>
             <li>
-              <b className="text-black">Datas:</b> PostgreSQL, RDS, CloudSQL
+              Working feature requests in languages such as Ruby and Go on
+              high-performing teams
             </li>
-          </ul>
+            <li>Debugging enterprise software in Java, C#</li>
+          </div>
         </section>
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
