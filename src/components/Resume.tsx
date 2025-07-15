@@ -210,7 +210,7 @@ function Resume() {
             </a>
           </div>
           <div>
-            <p className="text-lg font-bold">A.S. Finance</p>
+            <p className="text-lg font-bold">A.A. Finance</p>
             <a>
               <a className="text-sm font-bold">Collin College</a>
               <a> </a>
