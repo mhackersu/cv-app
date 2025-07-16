@@ -149,7 +149,7 @@ function Resume() {
               <a className="text-sm font-bold">Tyler Technologies</a>
               <a> </a>
               <a className="text-sm text-gray-600">
-                2018 | Yarmouth, ME (Remote)
+                2017-2018 | Yarmouth, ME (Remote)
               </a>
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
@@ -185,7 +185,7 @@ function Resume() {
             <a>
               <a className="text-sm font-bold">TxDOT</a>
               <a> </a>
-              <a className="text-sm text-gray-600">2016-2017 | Austin, TX</a>
+              <a className="text-sm text-gray-600">2016 | Austin, TX</a>
             </a>
           </div>
           <div className="mb-6">
