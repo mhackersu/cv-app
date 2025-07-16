@@ -87,7 +87,7 @@ function Resume() {
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
               <a className="text-sm text-gray-600">
-                2019-2022 | Madison, WI (Remote)
+                2020-2022 | Madison, WI (Remote)
               </a>
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
@@ -111,6 +111,34 @@ function Resume() {
                 sponsorship for usage on epherial environments. Set timeouts to
                 wrangle cloud spend. This made it possible for the company to
                 begin to lead with a culture of experimentation and learning.
+              </li>
+            </ul>
+          </div>
+          <div className="mb-6">
+            <a className="text-lg font-bold">Sr. Software Engineer</a>
+            <a className="text-sm text-black"> [AWS, NodeJS, PHP]</a>
+            <p>
+              <a className="text-sm font-bold">Pizza Hut Digital Ventures</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">
+                2019 | London, UK (Remote)
+              </a>
+            </p>
+            <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
+              <li>
+                Created & owned Latin America Geolocation API written in NodeJS
+                with TS and the Knex library. Communicate with various
+                governmental agencies in South America in Spanish. Gather
+                various Geolocation data in various shapes, transform data in
+                Python data frames, and import various application
+                configurations as per feature requests.
+              </li>
+              <li>
+                Assist with payment integration processor written in PHP with
+                Vietnam team; Assist and mentor junior developers with loading
+                configurations into PHP connecting to RDS production instances.
+                Host weekly review meetings and coordinate communications such
+                as planned maintenance windows. Following the sun.
               </li>
             </ul>
           </div>
@@ -147,34 +175,6 @@ function Resume() {
               </li>
             </ul>
           </div>
-          <div className="mb-6">
-            <a className="text-lg font-bold">Sr. Software Engineer</a>
-            <a className="text-sm text-black"> [AWS, NodeJS, PHP]</a>
-            <p>
-              <a className="text-sm font-bold">Pizza Hut Digital Ventures</a>
-              <a> </a>
-              <a className="text-sm text-gray-600">
-                2017 | London, UK (Remote)
-              </a>
-            </p>
-            <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
-              <li>
-                Created & owned Latin America Geolocation API written in NodeJS
-                with TS and the Knex library. Communicate with various
-                governmental agencies in South America in Spanish. Gather
-                various Geolocation data in various shapes, transform data in
-                Python data frames, and import various application
-                configurations as per feature requests.
-              </li>
-              <li>
-                Assist with payment integration processor written in PHP with
-                Vietnam team; Assist and mentor junior developers with loading
-                configurations into PHP connecting to RDS production instances.
-                Host weekly review meetings and coordinate communications such
-                as planned maintenance windows. Following the sun.
-              </li>
-            </ul>
-          </div>
         </section>
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
@@ -185,7 +185,7 @@ function Resume() {
             <a>
               <a className="text-sm font-bold">TxDOT</a>
               <a> </a>
-              <a className="text-sm text-gray-600">2016 | Austin, TX</a>
+              <a className="text-sm text-gray-600">2016-2017 | Austin, TX</a>
             </a>
           </div>
           <div className="mb-6">
