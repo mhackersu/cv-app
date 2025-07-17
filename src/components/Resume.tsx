@@ -199,6 +199,35 @@ function Resume() {
         </section>
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
+            Previous Employment
+          </h2>
+          <div className="mb-6">
+            <p className="text-lg font-bold">IT Manager</p>
+            <a>
+              <a className="text-sm font-bold">TDCC</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">2002-2010 | Plano, TX</a>
+            </a>
+          </div>
+          <div className="mb-6">
+            <p className="text-lg font-bold">Support Desk Technician II</p>
+            <a>
+              <a className="text-sm font-bold">Waymark Internet Services</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">1998-2002 | Irving, TX</a>
+            </a>
+          </div>
+          <div className="mb-6">
+            <p className="text-lg font-bold">Network Support Associate</p>
+            <a>
+              <a className="text-sm font-bold">Wayland Baptist University</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">1996-1998 | Plainview, TX</a>
+            </a>
+          </div>
+        </section>
+        <section className="mb-8">
+          <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">
             Education
           </h2>
           <div className="mb-6">
@@ -215,6 +244,16 @@ function Resume() {
               <a className="text-sm font-bold">Collin College</a>
               <a> </a>
               <a className="text-sm text-gray-600">1998-2000 | Plano, TX</a>
+            </a>
+          </div>
+          <div>
+            <p className="text-lg font-bold">H.S. Diploma</p>
+            <a>
+              <a className="text-sm font-bold">Hale Center High School</a>
+              <a> </a>
+              <a className="text-sm text-gray-600">
+                1992-1996 | Hale Center, TX
+              </a>
             </a>
           </div>
         </section>
