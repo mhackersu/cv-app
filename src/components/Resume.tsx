@@ -24,9 +24,8 @@ function Resume() {
               that supports product features in languages such as ruby and go.
             </li>
             <li>
-              Shipping features that pass linters in rigerous quality
-              requirements for 80%+ test coverage and stringent security
-              requirements on passing vulnerability scans.
+              Working quickly while navigating rigerous security and test
+              coverage linters in CI on long merge trains.
             </li>
           </div>
         </section>
