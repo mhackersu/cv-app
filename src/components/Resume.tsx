@@ -15,14 +15,19 @@ function Resume() {
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
           <div>
             <li>
-              Designing and Creating Software Architecture for World-Class
-              Engineering Firms
+              Working for world-class engineering firms; Mastering the
+              implemtation of software architecture principles such as those
+              found in Gang of Four and SOLID methodologies.
             </li>
             <li>
-              Working feature requests in languages such as Ruby and Go on
-              high-performing teams
+              Working with high-performing software teams; Writing backend code
+              that supports product features in languages such as ruby and go.
             </li>
-            <li>Debugging enterprise software in Java, C#</li>
+            <li>
+              Shipping features that pass linters in rigerous quality
+              requirements for 80%+ test coverage and stringent security
+              requirements on passing vulnerability scans.
+            </li>
           </div>
         </section>
         <section className="mb-8">
