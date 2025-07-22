@@ -242,7 +242,7 @@ function Resume() {
               <a className="text-sm text-gray-600">2010-2014 | Denton, TX</a>
             </a>
           </div>
-          <div>
+          <div className="mb-6">
             <p className="text-lg font-bold">A.A. Finance</p>
             <a>
               <a className="text-sm font-bold">Collin College</a>
@@ -250,7 +250,7 @@ function Resume() {
               <a className="text-sm text-gray-600">1998-2000 | Plano, TX</a>
             </a>
           </div>
-          <div>
+          <div className="mb-6">
             <p className="text-lg font-bold">H.S. Diploma</p>
             <a>
               <a className="text-sm font-bold">Hale Center High School</a>
