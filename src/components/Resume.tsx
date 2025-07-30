@@ -15,12 +15,12 @@ function Resume() {
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
           <div>
             <li>
-              Specializing in the design and ownership of secure, scalable
-              software delivery platforms.
+              Applying design systems thinking that translate key requirements
+              into resilient business processes that scale.
             </li>
             <li>
-              Applying rigorous root cause analysis and conducting blameless
-              post-mortems using proven engineering frameworks.
+              Specializing in the design and ownership of secure, scalable
+              systems.
             </li>
             <li>
               Championing a culture of constructive debate, continuous learning,
