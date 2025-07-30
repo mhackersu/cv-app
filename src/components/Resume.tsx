@@ -23,8 +23,8 @@ function Resume() {
               post-mortems using proven engineering frameworks.
             </li>
             <li>
-              Working quickly while navigating rigerous security and test
-              coverage linters in CI on long merge trains.
+              Championing a culture of constructive debate, continuous learning,
+              and resilient systems thinking.
             </li>
           </div>
         </section>
