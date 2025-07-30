@@ -15,13 +15,12 @@ function Resume() {
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
           <div>
             <li>
-              Working for world-class engineering firms; Mastering the
-              implemtation of software architecture principles such as those
-              found in Gang of Four and SOLID methodologies.
+              Specializing in the design and ownership of secure, scalable
+              software delivery platforms.
             </li>
             <li>
-              Working with high-performing software teams; Writing backend code
-              that supports product features in languages such as ruby and go.
+              Applying rigorous root cause analysis and conducting blameless
+              post-mortems using proven engineering frameworks.
             </li>
             <li>
               Working quickly while navigating rigerous security and test
