@@ -14,12 +14,10 @@ function Resume() {
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
           <div>
-            <li>
-              Applying design systems and mental models to translate key
-              requirements in a culture of constructive debate and continuous
-              learning to foster secure and resilient business processes that
-              scale.
-            </li>
+            Applying design systems and mental models to translate key
+            requirements in a culture of constructive debate and continuous
+            learning to foster secure and resilient business processes that
+            scale.
           </div>
         </section>
         <section className="mb-8">
