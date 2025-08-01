@@ -15,16 +15,10 @@ function Resume() {
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
           <div>
             <li>
-              Applying design systems thinking that translate key requirements
-              into resilient business processes that scale.
-            </li>
-            <li>
-              Specializing in the design and ownership of secure, scalable
-              systems.
-            </li>
-            <li>
-              Championing a culture of constructive debate, continuous learning,
-              and resilient systems thinking.
+              Translating key requirements into secure and scalable systems by
+              practicing design systems thinking to create and own resilient
+              business processes while fostering a culture of constructive
+              debate and continuous learning.
             </li>
           </div>
         </section>
