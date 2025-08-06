@@ -101,8 +101,8 @@ function Resume() {
                 development across organization.
               </li>
               <li>
-                Created C#/.Net templates for function apps with ephmerial state
-                accessable to all dev teams. Worked with Ops to not require
+                Created C#/.Net templates for function apps with ephemeral state
+                accessible to all dev teams. Worked with Ops to not require
                 sponsorship for usage on epherial environments. Set timeouts to
                 wrangle cloud spend. This made it possible for the company to
                 begin to lead with a culture of experimentation and learning.
