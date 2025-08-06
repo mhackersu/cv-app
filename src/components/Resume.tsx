@@ -69,7 +69,7 @@ function Resume() {
                 across global Kubernetes infrastructure (GKE).
               </li>
               <li>
-                Contribuiting to Cloudflare Orange Cloud Enterprise SaaS via Go
+                Contributing to Cloudflare Orange Cloud Enterprise SaaS via Go
                 migration from Python automation for Let's Encrypt and Google
                 Cloud SSL renewal subroutines on customer domains.
               </li>
