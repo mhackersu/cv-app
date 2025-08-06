@@ -37,16 +37,16 @@ function Resume() {
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
                 Architected improvements for a multi-tenant Ruby application
-                serving 1M+ customer domains (e.g., wpengine.com, wpeng.in),
-                supporting internal and customer workloads on GKE. Introduced
-                architectural changes to streamline class loading and domain
-                resolution at scale.
+                serving 100M+ customer domains (e.g., wpengine.com, wpeng.in),
+                supporting internal and customer workloads on GKE; Introduced
+                architectural changes to streamline domain validation at scale.
               </li>
               <li>
                 Led remediation of critical domain routing exploit in a
-                Ruby-based GKE platform powering over 200M WordPress customer
-                domains. Identified vulnerability, rewrote core regex logic, and
-                implemented test-driven validation across routing layers.
+                Ruby-based platform 100M+ WordPress customer domains. Identified
+                vulnerabilities, rewrote core regex logic for domain validation
+                as per RFC 1035 spec, and implemented pre-release CI with
+                test-driven validation across routing environment layers.
               </li>
               <li>
                 Technical lead for nine-month security initiative, driving ADR
@@ -92,8 +92,8 @@ function Resume() {
               </li>
               <li>
                 Worked as an embedded engineer on middleware team that serviced
-                all dev teams for debugging in production. Assisted with
-                debugging, stack trace and log capture.
+                all dev teams for debugging in production. Implemented log
+                capture for debug stack trace for dev teams on AKS.
               </li>
               <li>
                 Organizational IDP Champion; Created DevOps initiative via CI
