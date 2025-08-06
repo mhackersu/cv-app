@@ -55,6 +55,11 @@ function Resume() {
                 platform and mitigated significant operational risk.
               </li>
               <li>
+                Designed and implemented ETL processes in Python to replay lost
+                customer site configuration events, restoring system state and
+                ensuring cross-system synchronization following outages.
+              </li>
+              <li>
                 Led rewrite effort for internal domain routing system to
                 Go/gRPC; This effort directly led to developing a standard
                 towards improving maintainability for future platform services.
@@ -134,6 +139,10 @@ function Resume() {
                 configurations into PHP connecting to RDS production instances.
                 Host weekly review meetings and coordinate communications such
                 as planned maintenance windows. Following the sun.
+              </li>
+              <li>
+                Engineered ETL processes in Python for order rewrite process
+                bridge during migration to NEC point of sale API platform.
               </li>
             </ul>
           </div>
