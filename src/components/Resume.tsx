@@ -5,7 +5,7 @@ function Resume() {
         <div className="mb-6 flex items-center justify-between border-b pb-4">
           <div>
             <h1 className="text-4xl font-bold">Mike Hacker</h1>
-            <p className="text-lg">Sr. Software Engineer</p>
+            <p className="text-lg">Full-Stack Engineer</p>
             <p className="text-sm text-gray-600">
               hacker@bfsio.net | 830-313-9450
             </p>
@@ -14,10 +14,10 @@ function Resume() {
         <section className="mb-8">
           <h2 className="mb-4 border-b pb-2 text-2xl font-semibold">Summary</h2>
           <div>
-            Applying design systems and mental models to translate key
-            requirements in a culture of constructive debate and continuous
-            learning to foster secure and resilient business processes that
-            scale.
+            Applying architectural and design systems that translate key
+            performance indicators into secure and resilient business processes
+            that scale; Fostering a culture of constructive debate and
+            continuous learning.
           </div>
         </section>
         <section className="mb-8">
@@ -25,7 +25,7 @@ function Resume() {
             Professional Experience
           </h2>
           <div className="mb-6">
-            <a className="text-lg font-bold">Sr. Software Engineer</a>
+            <a className="text-lg font-bold">SWE IV</a>
             <a className="text-sm text-black"> [GKE, Go, Ruby, Py]</a>
             <p>
               <a className="text-sm font-bold">WP Engine</a>
