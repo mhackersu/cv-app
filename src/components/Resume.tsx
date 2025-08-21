@@ -92,9 +92,8 @@ function Resume() {
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Lead DevOps Engineer for mission-critical JRE/Linux
-                modernization effort on ACH/Swift transactional system servicing
-                7B ARR.
+                DevOps Engineer for mission-critical JRE/Linux modernization
+                effort on ACH/Swift transactional system servicing 7B ARR.
               </li>
               <li>
                 Worked as an embedded engineer on middleware team that serviced
