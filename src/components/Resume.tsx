@@ -87,7 +87,7 @@ function Resume() {
               <a className="text-sm font-bold">Fairway Mortgage</a>
               <a> </a>
               <a className="text-sm text-gray-600">
-                2020-2022 | Madison, WI (Remote)
+                2021-2022 | Madison, WI (Remote)
               </a>
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
@@ -121,7 +121,7 @@ function Resume() {
               <a className="text-sm font-bold">Pizza Hut Digital Ventures</a>
               <a> </a>
               <a className="text-sm text-gray-600">
-                2019 | London, UK (Remote)
+                2019-2020 | London, UK (Remote)
               </a>
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
