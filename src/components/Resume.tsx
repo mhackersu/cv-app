@@ -92,25 +92,25 @@ function Resume() {
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                Lead engineer for mission-critical JRE/Linux modernization
-                effort on ACH/Swift transactional system servicing 7B ARR.
+                Lead DevOps Engineer for mission-critical JRE/Linux
+                modernization effort on ACH/Swift transactional system servicing
+                7B ARR.
               </li>
               <li>
                 Worked as an embedded engineer on middleware team that serviced
-                all dev teams for debugging in production. Implemented log
-                capture for debug stack trace for dev teams on AKS.
+                all dev teams for debugging in production. Implemented
+                observability for AKS nodes.
               </li>
               <li>
-                Organizational IDP Champion; Created DevOps initiative via CI
-                workflows with complete IaS golden templates to 20+ teams
-                development across organization.
+                Organizational IDP Champion; Championed DevOps Initiatives with
+                CI workflows and IaS templates for multiple dev teams.
               </li>
               <li>
-                Created C#/.Net templates for function apps with ephemeral state
-                accessible to all dev teams. Worked with Ops to not require
-                sponsorship for usage on epherial environments. Set timeouts to
-                wrangle cloud spend. This made it possible for the company to
-                begin to lead with a culture of experimentation and learning.
+                Created C#/.Net templates for ephemeral nodes. Worked with Ops
+                to create adoption workflow for epherial environments. Set
+                timeouts to wrangle cloud spend. This made it possible for the
+                company to begin to lead with a culture of experimentation and
+                learning.
               </li>
             </ul>
           </div>
