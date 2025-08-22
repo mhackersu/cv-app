@@ -186,7 +186,7 @@ function Resume() {
           </h2>
           <div className="mb-6">
             <p className="text-lg font-bold">Full-Stack Web Developer</p>
-            <p className="text-lg font-bold">Angular 1.x, Tomcat</p>
+            <p className="text-sm">Angular 1.x, Tomcat</p>
             <a>
               <a className="text-sm font-bold">TxDOT</a>
               <a> </a>
