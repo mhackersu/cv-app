@@ -75,8 +75,8 @@ function Resume() {
               </li>
               <li>
                 Contributing to Cloudflare Orange Cloud Enterprise SaaS via Go
-                migration from Python automation for Let's Encrypt and Google
-                Cloud SSL renewal subroutines on customer domains.
+                migration from Python automation in StackStorm for Let's Encrypt
+                and Google Cloud SSL renewal subroutines on customer domains.
               </li>
             </ul>
           </div>
@@ -92,8 +92,9 @@ function Resume() {
             </p>
             <ul className="list-disc space-y-1 pl-5 text-sm text-gray-700">
               <li>
-                DevOps Engineer for mission-critical JRE/Linux modernization
-                effort on ACH/Swift transactional system servicing 7B ARR.
+                DevOps Engineer for mission-critical JRE/SwitchYard
+                modernization effort on ACH/Swift transactional system servicing
+                7B ARR.
               </li>
               <li>
                 Worked as an embedded engineer on middleware team that serviced
@@ -185,6 +186,7 @@ function Resume() {
           </h2>
           <div className="mb-6">
             <p className="text-lg font-bold">Full-Stack Web Developer</p>
+            <p className="text-lg font-bold">Angular 1.x, Tomcat</p>
             <a>
               <a className="text-sm font-bold">TxDOT</a>
               <a> </a>
